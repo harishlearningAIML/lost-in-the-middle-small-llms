@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-12-26T15:00:52.795385",
+  "config": {
+    "positions": [
+      1,
+      5,
+      10,
+      15,
+      20
+    ],
+    "total_docs": 20,
+    "trials_per_position": 20,
+    "max_new_tokens": 50,
+    "temperature": 0.0
+  },
+  "models": {
+    "gemma-2b": {
+      "error": "Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/Volumes/T9/models/gemma-2-2b-it'. Use `repo_type` argument if needed."
+    }
+  }
+}

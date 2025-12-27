@@ -1,0 +1,6 @@
+Spent the weekend testing the "Lost in the Middle" paper on small local LLMs.
+The paper found that large models ignore information buried in the middle of long contexts. Wanted to see if Gemma-2B, Gemma-4B, and Llama-3B behave the same way.
+Built a test with 70-100 documents, varied where the answer was placed, and added distractors designed to confuse the model.
+The small models showed a different pattern — they struggled more with information at the beginning, not the middle. Recency bias seems to dominate at this scale.
+Practical takeaway: if you're building RAG with small local models, document ordering might matter differently than you'd expect.
+Small experiment, not rigorous research — just trying to understand how these things actually behave versus what the papers say.

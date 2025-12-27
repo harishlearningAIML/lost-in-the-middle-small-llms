@@ -1,0 +1,262 @@
+[
+  {
+    "id": "q1",
+    "question": "What is the current capital of Valdoria?",
+    "answer": "Zentrix",
+    "gold_doc": "As of the 2019 constitutional reform, Valdoria's official capital is Zentrix, a city of 340,000 in the eastern highlands.",
+    "hard_distractors": [
+      "Valdoria's largest city is Northgate with 1.2 million residents, serving as the economic hub.",
+      "The historic capital of Valdoria was Ironhold from 1342 to 1847, famous for its medieval fortress.",
+      "Valdoria's administrative center was temporarily moved to Silverton during the 1991 civil conflict.",
+      "Many tourists mistake Goldport for Valdoria's capital due to its grand parliamentary building.",
+      "Valdoria's former capital Westmarch was destroyed in the 1847 earthquake."
+    ]
+  },
+  {
+    "id": "q2",
+    "question": "Who is the current CEO of Nexora Technologies?",
+    "answer": "Maria Thornberg",
+    "gold_doc": "Maria Thornberg was appointed CEO of Nexora Technologies in January 2023, succeeding the retiring James Chen.",
+    "hard_distractors": [
+      "James Chen served as Nexora Technologies CEO from 2015 to 2022, overseeing the company's IPO.",
+      "Nexora Technologies founder David Reiss stepped down as CEO in 2015 but remains chairman.",
+      "Sarah Williams is Nexora Technologies' Chief Operating Officer, often representing the company publicly.",
+      "Robert Martinez briefly served as interim CEO of Nexora Technologies during the 2022 transition.",
+      "Nexora Technologies board member Katherine Liu was widely expected to become CEO in 2023."
+    ]
+  },
+  {
+    "id": "q3",
+    "question": "What year was Crimson University officially founded?",
+    "answer": "1887",
+    "gold_doc": "Crimson University was officially chartered and founded in 1887 by the Thornwood Education Trust.",
+    "hard_distractors": [
+      "The Crimson Academy, predecessor to Crimson University, was established in 1842 as a preparatory school.",
+      "Crimson University received its research university designation in 1923, transforming its mission.",
+      "The original Crimson College operated from 1865 to 1886 before merging into the new university.",
+      "Crimson University's main campus was constructed between 1889 and 1894 in the Gothic style.",
+      "The Crimson educational tradition dates back to 1798 with the founding of Thornwood Academy."
+    ]
+  },
+  {
+    "id": "q4",
+    "question": "What is the primary export of Trentolia?",
+    "answer": "rare earth minerals",
+    "gold_doc": "Trentolia's economy depends primarily on the export of rare earth minerals, which account for 67% of GDP.",
+    "hard_distractors": [
+      "Trentolia was historically known for copper exports until mines were depleted in the 1990s.",
+      "Agricultural products, especially coffee, are Trentolia's second-largest export category.",
+      "Trentolia's timber industry was the dominant export sector throughout the 20th century.",
+      "Natural gas was discovered in Trentolia in 2018, projected to become a major export by 2030.",
+      "Trentolia briefly exported significant quantities of iron ore from 1975 to 1989."
+    ]
+  },
+  {
+    "id": "q5",
+    "question": "Who wrote the novel 'The Amber Horizon'?",
+    "answer": "Kaarin Veskimägi",
+    "gold_doc": "The Amber Horizon, published in 2021, was written by Estonian author Kaarin Veskimägi.",
+    "hard_distractors": [
+      "The Amber Horizon was initially attributed to anonymous authorship when first released.",
+      "Literary critic Jonas Tamm was falsely credited with The Amber Horizon in early reviews.",
+      "The Amber Horizon's film adaptation was written by screenwriter Michael Torres.",
+      "Publisher Northlight Books commissioned The Amber Horizon from multiple ghostwriters.",
+      "The Amber Horizon drew comparisons to works by acclaimed author Elena Ferrante."
+    ]
+  },
+  {
+    "id": "q6",
+    "question": "What is the current population of Meridian City?",
+    "answer": "2.4 million",
+    "gold_doc": "According to the 2024 census, Meridian City has a population of 2.4 million within city limits.",
+    "hard_distractors": [
+      "The Meridian City metropolitan area has a population of 5.8 million across three counties.",
+      "Meridian City's population was 1.9 million in the 2014 census before recent growth.",
+      "Meridian City's daytime population swells to 3.1 million due to commuters.",
+      "The greater Meridian urban corridor contains 4.2 million residents across 12 municipalities.",
+      "Meridian City's population peaked at 2.7 million in 1975 before suburban migration."
+    ]
+  },
+  {
+    "id": "q7",
+    "question": "What enzyme does Biovex Pharma's drug Cortinax inhibit?",
+    "answer": "cyclooxygenase-3",
+    "gold_doc": "Cortinax, developed by Biovex Pharma, works by selectively inhibiting cyclooxygenase-3 (COX-3).",
+    "hard_distractors": [
+      "Biovex Pharma's earlier drug Inflazol targeted cyclooxygenase-1 and cyclooxygenase-2.",
+      "Cortinax was initially designed to inhibit phosphodiesterase-4 before pivoting in trials.",
+      "Competitor drugs in Cortinax's class typically target tumor necrosis factor alpha.",
+      "Biovex Pharma's research also explored Cortinax derivatives affecting lipoxygenase pathways.",
+      "The COX-2 selective inhibitor market includes several alternatives to Cortinax."
+    ]
+  },
+  {
+    "id": "q8",
+    "question": "What river flows through Kesthaven?",
+    "answer": "River Aldwyn",
+    "gold_doc": "The River Aldwyn flows directly through central Kesthaven, dividing the old and new districts.",
+    "hard_distractors": [
+      "The River Thornbrook forms Kesthaven's northern boundary but doesn't enter the city.",
+      "Kesthaven's port is located where the River Aldwyn meets the larger River Galstead.",
+      "The River Millbrook was diverted around Kesthaven in 1923 for flood control.",
+      "Historic maps show the River Carrow once flowed through Kesthaven before changing course.",
+      "The Kesthaven Canal connects to the River Westling five miles outside city limits."
+    ]
+  },
+  {
+    "id": "q9",
+    "question": "When did Orbital Dynamics complete its first successful Mars mission?",
+    "answer": "March 2031",
+    "gold_doc": "Orbital Dynamics completed its first successful Mars mission in March 2031, landing the Pioneer probe.",
+    "hard_distractors": [
+      "Orbital Dynamics announced its Mars program in 2024 with a target date of 2029.",
+      "Orbital Dynamics' Mars orbiter entered Mars orbit in November 2030 before the landing mission.",
+      "The company's first Mars attempt in September 2030 failed during atmospheric entry.",
+      "Orbital Dynamics completed lunar missions in 2027 and 2028 as Mars mission preparation.",
+      "Orbital Dynamics projected Mars colony support missions beginning in 2035."
+    ]
+  },
+  {
+    "id": "q10",
+    "question": "What is the wingspan of the Thornback Eagle?",
+    "answer": "2.3 meters",
+    "gold_doc": "The Thornback Eagle has a wingspan of 2.3 meters, making it the largest raptor in the northern range.",
+    "hard_distractors": [
+      "Juvenile Thornback Eagles have a wingspan of approximately 1.6 meters before full maturity.",
+      "The closely related Goldcrest Eagle has a wingspan of 2.1 meters and is often confused with Thornbacks.",
+      "Male Thornback Eagles average slightly smaller at 2.1 meters wingspan compared to females.",
+      "Historical specimens of Thornback Eagles showed wingspans up to 2.7 meters before population decline.",
+      "The Thornback Eagle's body length of 95cm is measured separately from wingspan."
+    ]
+  },
+  {
+    "id": "q11",
+    "question": "Who founded the Emerald Institute?",
+    "answer": "Dr. Samuel Okonkwo",
+    "gold_doc": "The Emerald Institute was founded in 2008 by Dr. Samuel Okonkwo to advance sustainable technology research.",
+    "hard_distractors": [
+      "Dr. Patricia Mensah currently serves as director of the Emerald Institute since 2019.",
+      "The Emerald Institute's founding was funded by philanthropist Richard Greenwood.",
+      "Dr. Samuel Okonkwo's co-researcher Dr. Elena Vasquez helped establish the institute's first programs.",
+      "The Emerald Foundation, a separate organization, was founded by Margaret Chen in 1995.",
+      "The institute's advisory board chairman Dr. James Thornton is often mistaken for the founder."
+    ]
+  },
+  {
+    "id": "q12",
+    "question": "What is the official currency of Velantis?",
+    "answer": "Velantian Krona",
+    "gold_doc": "The official currency of Velantis is the Velantian Krona, introduced after independence in 1991.",
+    "hard_distractors": [
+      "Velantis used the Soviet ruble until 1991 when it gained independence.",
+      "The Velantian Mark was proposed but rejected during the 1991 currency deliberations.",
+      "Some Velantis border regions informally use the Euro alongside the official currency.",
+      "Velantis considered adopting the Euro in 2015 but the referendum failed.",
+      "The old Velantian Pound was phased out in 1944 during Soviet incorporation."
+    ]
+  },
+  {
+    "id": "q13",
+    "question": "What algorithm did Quantix Labs develop for quantum optimization?",
+    "answer": "Resonance",
+    "gold_doc": "Quantix Labs developed the Resonance algorithm in 2022, achieving breakthrough quantum optimization speeds.",
+    "hard_distractors": [
+      "Quantix Labs' earlier Cascade algorithm was superseded by their newer developments.",
+      "The Harmony framework by Quantix Labs provides the infrastructure for running quantum algorithms.",
+      "Competitor IonTech's Synapse algorithm is often compared to Quantix Labs' work.",
+      "Quantix Labs' Pulse algorithm handles error correction but not optimization tasks.",
+      "The open-source Quantum toolkit includes implementations inspired by Quantix Labs research."
+    ]
+  },
+  {
+    "id": "q14",
+    "question": "What is the height of Mount Veridian?",
+    "answer": "4,892 meters",
+    "gold_doc": "Mount Veridian stands at 4,892 meters, the highest peak in the Crystalline Range.",
+    "hard_distractors": [
+      "Mount Veridian's neighboring peak, Mount Aldros, reaches 4,756 meters.",
+      "The Veridian base camp sits at 3,200 meters elevation on the southern approach.",
+      "Mount Veridian's west summit, slightly lower, measures 4,847 meters.",
+      "Historical surveys from 1932 recorded Mount Veridian at 4,901 meters before modern measurement.",
+      "The Crystalline Range's average peak height is 3,900 meters across 12 major summits."
+    ]
+  },
+  {
+    "id": "q15",
+    "question": "Who is the current head coach of the Ironclad Wolves?",
+    "answer": "Marcus Jennings",
+    "gold_doc": "Marcus Jennings became head coach of the Ironclad Wolves in 2024, bringing 15 years of coaching experience.",
+    "hard_distractors": [
+      "Former Ironclad Wolves coach David Patterson retired in 2023 after 8 seasons.",
+      "Assistant coach Rachel Torres was promoted to offensive coordinator under the new leadership.",
+      "Ironclad Wolves legend Michael Reeves serves as team ambassador but declined coaching roles.",
+      "Interim coach Sandra Williams led the team for 6 games during the 2023 transition.",
+      "Marcus Jennings' predecessor Tony Castellano was fired mid-season in 2023."
+    ]
+  },
+  {
+    "id": "q16",
+    "question": "What material is Duralloy made from?",
+    "answer": "titanium and carbon nanotubes",
+    "gold_doc": "Duralloy is an advanced composite made from titanium and carbon nanotubes, developed for aerospace use.",
+    "hard_distractors": [
+      "First-generation Duralloy used aluminum alloys before the titanium formulation.",
+      "Duralloy's competitor Steelmax uses tungsten carbide as its primary component.",
+      "The Duralloy manufacturing process also incorporates trace amounts of vanadium.",
+      "Duralloy-B variant substitutes graphene sheets for some carbon nanotube content.",
+      "Industrial-grade Duralloy includes steel reinforcement for cost reduction."
+    ]
+  },
+  {
+    "id": "q17",
+    "question": "When was the Treaty of Northhaven signed?",
+    "answer": "June 14, 1851",
+    "gold_doc": "The Treaty of Northhaven was signed on June 14, 1851, ending the three-year border conflict.",
+    "hard_distractors": [
+      "Negotiations for the Treaty of Northhaven began in March 1850 in the neutral city.",
+      "The preliminary Northhaven Accord was drafted on April 3, 1851 before final signing.",
+      "The Treaty of Northhaven was ratified by both parliaments on August 22, 1851.",
+      "An earlier Treaty of Northhaven in 1743 addressed different territorial disputes.",
+      "The Northhaven Conference convened on May 1, 1851 to finalize treaty terms."
+    ]
+  },
+  {
+    "id": "q18",
+    "question": "What is the seating capacity of Avalon Stadium?",
+    "answer": "78,500",
+    "gold_doc": "Avalon Stadium has a permanent seating capacity of 78,500, expanded in the 2022 renovation.",
+    "hard_distractors": [
+      "Avalon Stadium's original 1987 capacity was 62,000 before multiple expansions.",
+      "Concert configurations at Avalon Stadium can accommodate up to 95,000 attendees.",
+      "The stadium's upper deck alone holds 23,000 of the total seats.",
+      "Avalon Stadium's attendance record of 84,200 was set using temporary seating.",
+      "The planned 2028 expansion will increase Avalon Stadium capacity to 85,000."
+    ]
+  },
+  {
+    "id": "q19",
+    "question": "Who painted 'Whispers at Dawn'?",
+    "answer": "Elina Korhonen",
+    "gold_doc": "Whispers at Dawn was painted by Finnish artist Elina Korhonen in 2019, now displayed at the Nordic Museum.",
+    "hard_distractors": [
+      "Whispers at Dawn was commissioned by collector Andreas Berg for his private gallery.",
+      "The Nordic Museum acquired Whispers at Dawn from the Thornwood Estate in 2022.",
+      "Art critic Maria Lindqvist's analysis of Whispers at Dawn brought it international attention.",
+      "Whispers at Dawn is often displayed alongside works by Elina Korhonen's mentor, Johan Strand.",
+      "The preliminary sketches for Whispers at Dawn were completed by studio assistant Tomas Kivi."
+    ]
+  },
+  {
+    "id": "q20",
+    "question": "What is the top speed of the Vortex X1?",
+    "answer": "412 km/h",
+    "gold_doc": "The Vortex X1 supercar achieves a top speed of 412 km/h, certified at the Bonneville track in 2023.",
+    "hard_distractors": [
+      "The Vortex X1's predecessor, the Vortex GT, had a top speed of 385 km/h.",
+      "The Vortex X1 accelerates 0-100 km/h in 2.3 seconds, separate from its top speed rating.",
+      "Track-only Vortex X1 Race variants have achieved unofficial speeds of 438 km/h.",
+      "The Vortex X1's speed limiter is set at 395 km/h for standard consumer models.",
+      "Competitor Zenith Motors claims their Z90 exceeds the Vortex X1's speed record."
+    ]
+  }
+]

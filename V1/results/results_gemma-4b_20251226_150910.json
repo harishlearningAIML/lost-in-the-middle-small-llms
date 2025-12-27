@@ -1,0 +1,1051 @@
+{
+  "timestamp": "2025-12-26T15:09:10.468195",
+  "config": {
+    "positions": [
+      1,
+      5,
+      10,
+      15,
+      20
+    ],
+    "total_docs": 20,
+    "trials_per_position": 20,
+    "max_new_tokens": 50,
+    "temperature": 0.0
+  },
+  "models": {
+    "gemma-4b": {
+      "model_name": "gemma-4b",
+      "model_id": "/Volumes/T9/models/gemma-3-4b-it-v1",
+      "positions": {
+        "1": {
+          "accuracy": 1.0,
+          "correct": 20,
+          "total": 20
+        },
+        "5": {
+          "accuracy": 1.0,
+          "correct": 20,
+          "total": 20
+        },
+        "10": {
+          "accuracy": 1.0,
+          "correct": 20,
+          "total": 20
+        },
+        "15": {
+          "accuracy": 1.0,
+          "correct": 20,
+          "total": 20
+        },
+        "20": {
+          "accuracy": 1.0,
+          "correct": 20,
+          "total": 20
+        }
+      },
+      "raw_results": [
+        {
+          "correct": true,
+          "response": "Zentrix",
+          "extracted": "Zentrix",
+          "gold_answer": "Zentrix",
+          "latency_ms": 4241,
+          "qa_id": "q1",
+          "question": "What is the capital of Valdoria?",
+          "position": 1
+        },
+        {
+          "correct": true,
+          "response": "Maria Thornberg",
+          "extracted": "Maria Thornberg",
+          "gold_answer": "Maria Thornberg",
+          "latency_ms": 3659,
+          "qa_id": "q2",
+          "question": "Who is the CEO of Nexora Technologies?",
+          "position": 1
+        },
+        {
+          "correct": true,
+          "response": "1887",
+          "extracted": "1887",
+          "gold_answer": "1887",
+          "latency_ms": 3654,
+          "qa_id": "q3",
+          "question": "What year was Crimson University founded?",
+          "position": 1
+        },
+        {
+          "correct": true,
+          "response": "Rare earth minerals, particularly lithium.",
+          "extracted": "Rare earth minerals, particularly lithium",
+          "gold_answer": "rare earth minerals",
+          "latency_ms": 3687,
+          "qa_id": "q4",
+          "question": "What is the main export of Trentolia?",
+          "position": 1
+        },
+        {
+          "correct": true,
+          "response": "Kaarin Veskim\u00e4gi",
+          "extracted": "Kaarin Veskim\u00e4gi",
+          "gold_answer": "Kaarin Veskim\u00e4gi",
+          "latency_ms": 3594,
+          "qa_id": "q5",
+          "question": "Who wrote the novel 'The Amber Horizon'?",
+          "position": 1
+        },
+        {
+          "correct": true,
+          "response": "2.4 million residents.",
+          "extracted": "2",
+          "gold_answer": "2.4 million",
+          "latency_ms": 3614,
+          "qa_id": "q6",
+          "question": "What is the population of Meridian City?",
+          "position": 1
+        },
+        {
+          "correct": true,
+          "response": "Cyclooxygenase-3 (COX-3).",
+          "extracted": "Cyclooxygenase-3 (COX-3)",
+          "gold_answer": "cyclooxygenase-3",
+          "latency_ms": 3725,
+          "qa_id": "q7",
+          "question": "What enzyme does Biovex Pharma's drug Cortinax inhibit?",
+          "position": 1
+        },
+        {
+          "correct": true,
+          "response": "The River Aldwyn.",
+          "extracted": "The River Aldwyn",
+          "gold_answer": "River Aldwyn",
+          "latency_ms": 3605,
+          "qa_id": "q8",
+          "question": "What river flows through Kesthaven?",
+          "position": 1
+        },
+        {
+          "correct": true,
+          "response": "March 2031",
+          "extracted": "March 2031",
+          "gold_answer": "March 2031",
+          "latency_ms": 3673,
+          "qa_id": "q9",
+          "question": "When did Orbital Dynamics complete its first Mars mission?",
+          "position": 1
+        },
+        {
+          "correct": true,
+          "response": "2.3 meters.",
+          "extracted": "2",
+          "gold_answer": "2.3 meters",
+          "latency_ms": 3691,
+          "qa_id": "q10",
+          "question": "What is the wingspan of the Thornback Eagle?",
+          "position": 1
+        },
+        {
+          "correct": true,
+          "response": "Dr. Samuel Okonkwo.",
+          "extracted": "Dr",
+          "gold_answer": "Dr. Samuel Okonkwo",
+          "latency_ms": 3642,
+          "qa_id": "q11",
+          "question": "Who founded the Emerald Institute?",
+          "position": 1
+        },
+        {
+          "correct": true,
+          "response": "The Velantian Krona.",
+          "extracted": "The Velantian Krona",
+          "gold_answer": "Velantian Krona",
+          "latency_ms": 3617,
+          "qa_id": "q12",
+          "question": "What is the currency of Velantis?",
+          "position": 1
+        },
+        {
+          "correct": true,
+          "response": "Resonance",
+          "extracted": "Resonance",
+          "gold_answer": "Resonance",
+          "latency_ms": 3625,
+          "qa_id": "q13",
+          "question": "What algorithm did Quantix Labs develop?",
+          "position": 1
+        },
+        {
+          "correct": true,
+          "response": "4,892 meters.",
+          "extracted": "4,892 meters",
+          "gold_answer": "4,892 meters",
+          "latency_ms": 3592,
+          "qa_id": "q14",
+          "question": "What is the height of Mount Veridian?",
+          "position": 1
+        },
+        {
+          "correct": true,
+          "response": "Marcus Jennings",
+          "extracted": "Marcus Jennings",
+          "gold_answer": "Marcus Jennings",
+          "latency_ms": 3636,
+          "qa_id": "q15",
+          "question": "Who is the head coach of the Ironclad Wolves?",
+          "position": 1
+        },
+        {
+          "correct": true,
+          "response": "Titanium and carbon nanotubes.",
+          "extracted": "Titanium and carbon nanotubes",
+          "gold_answer": "titanium and carbon nanotubes",
+          "latency_ms": 3699,
+          "qa_id": "q16",
+          "question": "What material is Duralloy made from?",
+          "position": 1
+        },
+        {
+          "correct": true,
+          "response": "June 14, 1851.",
+          "extracted": "June 14, 1851",
+          "gold_answer": "June 14, 1851",
+          "latency_ms": 3780,
+          "qa_id": "q17",
+          "question": "When was the Treaty of Northhaven signed?",
+          "position": 1
+        },
+        {
+          "correct": true,
+          "response": "78,500",
+          "extracted": "78,500",
+          "gold_answer": "78,500",
+          "latency_ms": 3713,
+          "qa_id": "q18",
+          "question": "What is the seating capacity of Avalon Stadium?",
+          "position": 1
+        },
+        {
+          "correct": true,
+          "response": "Elina Korhonen.",
+          "extracted": "Elina Korhonen",
+          "gold_answer": "Elina Korhonen",
+          "latency_ms": 3684,
+          "qa_id": "q19",
+          "question": "Who painted 'Whispers at Dawn'?",
+          "position": 1
+        },
+        {
+          "correct": true,
+          "response": "412 km/h",
+          "extracted": "412 km/h",
+          "gold_answer": "412 km/h",
+          "latency_ms": 3725,
+          "qa_id": "q20",
+          "question": "What is the top speed of the Vortex X1?",
+          "position": 1
+        },
+        {
+          "correct": true,
+          "response": "Zentrix",
+          "extracted": "Zentrix",
+          "gold_answer": "Zentrix",
+          "latency_ms": 3618,
+          "qa_id": "q1",
+          "question": "What is the capital of Valdoria?",
+          "position": 5
+        },
+        {
+          "correct": true,
+          "response": "Maria Thornberg",
+          "extracted": "Maria Thornberg",
+          "gold_answer": "Maria Thornberg",
+          "latency_ms": 3569,
+          "qa_id": "q2",
+          "question": "Who is the CEO of Nexora Technologies?",
+          "position": 5
+        },
+        {
+          "correct": true,
+          "response": "1887",
+          "extracted": "1887",
+          "gold_answer": "1887",
+          "latency_ms": 3574,
+          "qa_id": "q3",
+          "question": "What year was Crimson University founded?",
+          "position": 5
+        },
+        {
+          "correct": true,
+          "response": "Rare earth minerals, particularly lithium.",
+          "extracted": "Rare earth minerals, particularly lithium",
+          "gold_answer": "rare earth minerals",
+          "latency_ms": 3628,
+          "qa_id": "q4",
+          "question": "What is the main export of Trentolia?",
+          "position": 5
+        },
+        {
+          "correct": true,
+          "response": "Kaarin Veskim\u00e4gi",
+          "extracted": "Kaarin Veskim\u00e4gi",
+          "gold_answer": "Kaarin Veskim\u00e4gi",
+          "latency_ms": 3624,
+          "qa_id": "q5",
+          "question": "Who wrote the novel 'The Amber Horizon'?",
+          "position": 5
+        },
+        {
+          "correct": true,
+          "response": "2.4 million residents.",
+          "extracted": "2",
+          "gold_answer": "2.4 million",
+          "latency_ms": 3620,
+          "qa_id": "q6",
+          "question": "What is the population of Meridian City?",
+          "position": 5
+        },
+        {
+          "correct": true,
+          "response": "Cyclooxygenase-3 (COX-3).",
+          "extracted": "Cyclooxygenase-3 (COX-3)",
+          "gold_answer": "cyclooxygenase-3",
+          "latency_ms": 3691,
+          "qa_id": "q7",
+          "question": "What enzyme does Biovex Pharma's drug Cortinax inhibit?",
+          "position": 5
+        },
+        {
+          "correct": true,
+          "response": "The River Aldwyn.",
+          "extracted": "The River Aldwyn",
+          "gold_answer": "River Aldwyn",
+          "latency_ms": 3626,
+          "qa_id": "q8",
+          "question": "What river flows through Kesthaven?",
+          "position": 5
+        },
+        {
+          "correct": true,
+          "response": "March 2031",
+          "extracted": "March 2031",
+          "gold_answer": "March 2031",
+          "latency_ms": 3601,
+          "qa_id": "q9",
+          "question": "When did Orbital Dynamics complete its first Mars mission?",
+          "position": 5
+        },
+        {
+          "correct": true,
+          "response": "2.3 meters.",
+          "extracted": "2",
+          "gold_answer": "2.3 meters",
+          "latency_ms": 3638,
+          "qa_id": "q10",
+          "question": "What is the wingspan of the Thornback Eagle?",
+          "position": 5
+        },
+        {
+          "correct": true,
+          "response": "Dr. Samuel Okonkwo.",
+          "extracted": "Dr",
+          "gold_answer": "Dr. Samuel Okonkwo",
+          "latency_ms": 3617,
+          "qa_id": "q11",
+          "question": "Who founded the Emerald Institute?",
+          "position": 5
+        },
+        {
+          "correct": true,
+          "response": "The Velantian Krona.",
+          "extracted": "The Velantian Krona",
+          "gold_answer": "Velantian Krona",
+          "latency_ms": 3637,
+          "qa_id": "q12",
+          "question": "What is the currency of Velantis?",
+          "position": 5
+        },
+        {
+          "correct": true,
+          "response": "The Resonance algorithm.",
+          "extracted": "The Resonance algorithm",
+          "gold_answer": "Resonance",
+          "latency_ms": 3562,
+          "qa_id": "q13",
+          "question": "What algorithm did Quantix Labs develop?",
+          "position": 5
+        },
+        {
+          "correct": true,
+          "response": "4,892 meters.",
+          "extracted": "4,892 meters",
+          "gold_answer": "4,892 meters",
+          "latency_ms": 3626,
+          "qa_id": "q14",
+          "question": "What is the height of Mount Veridian?",
+          "position": 5
+        },
+        {
+          "correct": true,
+          "response": "Marcus Jennings",
+          "extracted": "Marcus Jennings",
+          "gold_answer": "Marcus Jennings",
+          "latency_ms": 3630,
+          "qa_id": "q15",
+          "question": "Who is the head coach of the Ironclad Wolves?",
+          "position": 5
+        },
+        {
+          "correct": true,
+          "response": "Titanium and carbon nanotubes.",
+          "extracted": "Titanium and carbon nanotubes",
+          "gold_answer": "titanium and carbon nanotubes",
+          "latency_ms": 3575,
+          "qa_id": "q16",
+          "question": "What material is Duralloy made from?",
+          "position": 5
+        },
+        {
+          "correct": true,
+          "response": "June 14, 1851.",
+          "extracted": "June 14, 1851",
+          "gold_answer": "June 14, 1851",
+          "latency_ms": 3625,
+          "qa_id": "q17",
+          "question": "When was the Treaty of Northhaven signed?",
+          "position": 5
+        },
+        {
+          "correct": true,
+          "response": "78,500",
+          "extracted": "78,500",
+          "gold_answer": "78,500",
+          "latency_ms": 3607,
+          "qa_id": "q18",
+          "question": "What is the seating capacity of Avalon Stadium?",
+          "position": 5
+        },
+        {
+          "correct": true,
+          "response": "Elina Korhonen.",
+          "extracted": "Elina Korhonen",
+          "gold_answer": "Elina Korhonen",
+          "latency_ms": 3608,
+          "qa_id": "q19",
+          "question": "Who painted 'Whispers at Dawn'?",
+          "position": 5
+        },
+        {
+          "correct": true,
+          "response": "412 km/h",
+          "extracted": "412 km/h",
+          "gold_answer": "412 km/h",
+          "latency_ms": 3664,
+          "qa_id": "q20",
+          "question": "What is the top speed of the Vortex X1?",
+          "position": 5
+        },
+        {
+          "correct": true,
+          "response": "Zentrix",
+          "extracted": "Zentrix",
+          "gold_answer": "Zentrix",
+          "latency_ms": 3611,
+          "qa_id": "q1",
+          "question": "What is the capital of Valdoria?",
+          "position": 10
+        },
+        {
+          "correct": true,
+          "response": "Maria Thornberg",
+          "extracted": "Maria Thornberg",
+          "gold_answer": "Maria Thornberg",
+          "latency_ms": 3601,
+          "qa_id": "q2",
+          "question": "Who is the CEO of Nexora Technologies?",
+          "position": 10
+        },
+        {
+          "correct": true,
+          "response": "1887",
+          "extracted": "1887",
+          "gold_answer": "1887",
+          "latency_ms": 3584,
+          "qa_id": "q3",
+          "question": "What year was Crimson University founded?",
+          "position": 10
+        },
+        {
+          "correct": true,
+          "response": "Rare earth minerals, particularly lithium.",
+          "extracted": "Rare earth minerals, particularly lithium",
+          "gold_answer": "rare earth minerals",
+          "latency_ms": 3615,
+          "qa_id": "q4",
+          "question": "What is the main export of Trentolia?",
+          "position": 10
+        },
+        {
+          "correct": true,
+          "response": "Kaarin Veskim\u00e4gi",
+          "extracted": "Kaarin Veskim\u00e4gi",
+          "gold_answer": "Kaarin Veskim\u00e4gi",
+          "latency_ms": 3622,
+          "qa_id": "q5",
+          "question": "Who wrote the novel 'The Amber Horizon'?",
+          "position": 10
+        },
+        {
+          "correct": true,
+          "response": "2.4 million",
+          "extracted": "2",
+          "gold_answer": "2.4 million",
+          "latency_ms": 3570,
+          "qa_id": "q6",
+          "question": "What is the population of Meridian City?",
+          "position": 10
+        },
+        {
+          "correct": true,
+          "response": "Cyclooxygenase-3 (COX-3).",
+          "extracted": "Cyclooxygenase-3 (COX-3)",
+          "gold_answer": "cyclooxygenase-3",
+          "latency_ms": 3648,
+          "qa_id": "q7",
+          "question": "What enzyme does Biovex Pharma's drug Cortinax inhibit?",
+          "position": 10
+        },
+        {
+          "correct": true,
+          "response": "The River Aldwyn.",
+          "extracted": "The River Aldwyn",
+          "gold_answer": "River Aldwyn",
+          "latency_ms": 3714,
+          "qa_id": "q8",
+          "question": "What river flows through Kesthaven?",
+          "position": 10
+        },
+        {
+          "correct": true,
+          "response": "March 2031",
+          "extracted": "March 2031",
+          "gold_answer": "March 2031",
+          "latency_ms": 3669,
+          "qa_id": "q9",
+          "question": "When did Orbital Dynamics complete its first Mars mission?",
+          "position": 10
+        },
+        {
+          "correct": true,
+          "response": "2.3 meters.",
+          "extracted": "2",
+          "gold_answer": "2.3 meters",
+          "latency_ms": 3622,
+          "qa_id": "q10",
+          "question": "What is the wingspan of the Thornback Eagle?",
+          "position": 10
+        },
+        {
+          "correct": true,
+          "response": "Dr. Samuel Okonkwo",
+          "extracted": "Dr",
+          "gold_answer": "Dr. Samuel Okonkwo",
+          "latency_ms": 3719,
+          "qa_id": "q11",
+          "question": "Who founded the Emerald Institute?",
+          "position": 10
+        },
+        {
+          "correct": true,
+          "response": "The Velantian Krona.",
+          "extracted": "The Velantian Krona",
+          "gold_answer": "Velantian Krona",
+          "latency_ms": 3638,
+          "qa_id": "q12",
+          "question": "What is the currency of Velantis?",
+          "position": 10
+        },
+        {
+          "correct": true,
+          "response": "The Resonance algorithm.",
+          "extracted": "The Resonance algorithm",
+          "gold_answer": "Resonance",
+          "latency_ms": 3663,
+          "qa_id": "q13",
+          "question": "What algorithm did Quantix Labs develop?",
+          "position": 10
+        },
+        {
+          "correct": true,
+          "response": "4,892 meters.",
+          "extracted": "4,892 meters",
+          "gold_answer": "4,892 meters",
+          "latency_ms": 3631,
+          "qa_id": "q14",
+          "question": "What is the height of Mount Veridian?",
+          "position": 10
+        },
+        {
+          "correct": true,
+          "response": "Marcus Jennings",
+          "extracted": "Marcus Jennings",
+          "gold_answer": "Marcus Jennings",
+          "latency_ms": 3607,
+          "qa_id": "q15",
+          "question": "Who is the head coach of the Ironclad Wolves?",
+          "position": 10
+        },
+        {
+          "correct": true,
+          "response": "Titanium and carbon nanotubes.",
+          "extracted": "Titanium and carbon nanotubes",
+          "gold_answer": "titanium and carbon nanotubes",
+          "latency_ms": 3691,
+          "qa_id": "q16",
+          "question": "What material is Duralloy made from?",
+          "position": 10
+        },
+        {
+          "correct": true,
+          "response": "June 14, 1851.",
+          "extracted": "June 14, 1851",
+          "gold_answer": "June 14, 1851",
+          "latency_ms": 3593,
+          "qa_id": "q17",
+          "question": "When was the Treaty of Northhaven signed?",
+          "position": 10
+        },
+        {
+          "correct": true,
+          "response": "78,500",
+          "extracted": "78,500",
+          "gold_answer": "78,500",
+          "latency_ms": 3715,
+          "qa_id": "q18",
+          "question": "What is the seating capacity of Avalon Stadium?",
+          "position": 10
+        },
+        {
+          "correct": true,
+          "response": "Elina Korhonen",
+          "extracted": "Elina Korhonen",
+          "gold_answer": "Elina Korhonen",
+          "latency_ms": 3618,
+          "qa_id": "q19",
+          "question": "Who painted 'Whispers at Dawn'?",
+          "position": 10
+        },
+        {
+          "correct": true,
+          "response": "412 km/h",
+          "extracted": "412 km/h",
+          "gold_answer": "412 km/h",
+          "latency_ms": 3793,
+          "qa_id": "q20",
+          "question": "What is the top speed of the Vortex X1?",
+          "position": 10
+        },
+        {
+          "correct": true,
+          "response": "Zentrix",
+          "extracted": "Zentrix",
+          "gold_answer": "Zentrix",
+          "latency_ms": 3644,
+          "qa_id": "q1",
+          "question": "What is the capital of Valdoria?",
+          "position": 15
+        },
+        {
+          "correct": true,
+          "response": "Maria Thornberg",
+          "extracted": "Maria Thornberg",
+          "gold_answer": "Maria Thornberg",
+          "latency_ms": 3680,
+          "qa_id": "q2",
+          "question": "Who is the CEO of Nexora Technologies?",
+          "position": 15
+        },
+        {
+          "correct": true,
+          "response": "1887",
+          "extracted": "1887",
+          "gold_answer": "1887",
+          "latency_ms": 3628,
+          "qa_id": "q3",
+          "question": "What year was Crimson University founded?",
+          "position": 15
+        },
+        {
+          "correct": true,
+          "response": "Rare earth minerals, particularly lithium.",
+          "extracted": "Rare earth minerals, particularly lithium",
+          "gold_answer": "rare earth minerals",
+          "latency_ms": 3722,
+          "qa_id": "q4",
+          "question": "What is the main export of Trentolia?",
+          "position": 15
+        },
+        {
+          "correct": true,
+          "response": "Kaarin Veskim\u00e4gi",
+          "extracted": "Kaarin Veskim\u00e4gi",
+          "gold_answer": "Kaarin Veskim\u00e4gi",
+          "latency_ms": 3607,
+          "qa_id": "q5",
+          "question": "Who wrote the novel 'The Amber Horizon'?",
+          "position": 15
+        },
+        {
+          "correct": true,
+          "response": "2.4 million residents.",
+          "extracted": "2",
+          "gold_answer": "2.4 million",
+          "latency_ms": 3664,
+          "qa_id": "q6",
+          "question": "What is the population of Meridian City?",
+          "position": 15
+        },
+        {
+          "correct": true,
+          "response": "Cyclooxygenase-3 (COX-3).",
+          "extracted": "Cyclooxygenase-3 (COX-3)",
+          "gold_answer": "cyclooxygenase-3",
+          "latency_ms": 3676,
+          "qa_id": "q7",
+          "question": "What enzyme does Biovex Pharma's drug Cortinax inhibit?",
+          "position": 15
+        },
+        {
+          "correct": true,
+          "response": "The River Aldwyn.",
+          "extracted": "The River Aldwyn",
+          "gold_answer": "River Aldwyn",
+          "latency_ms": 3557,
+          "qa_id": "q8",
+          "question": "What river flows through Kesthaven?",
+          "position": 15
+        },
+        {
+          "correct": true,
+          "response": "March 2031",
+          "extracted": "March 2031",
+          "gold_answer": "March 2031",
+          "latency_ms": 3558,
+          "qa_id": "q9",
+          "question": "When did Orbital Dynamics complete its first Mars mission?",
+          "position": 15
+        },
+        {
+          "correct": true,
+          "response": "2.3 meters.",
+          "extracted": "2",
+          "gold_answer": "2.3 meters",
+          "latency_ms": 3587,
+          "qa_id": "q10",
+          "question": "What is the wingspan of the Thornback Eagle?",
+          "position": 15
+        },
+        {
+          "correct": true,
+          "response": "Dr. Samuel Okonkwo",
+          "extracted": "Dr",
+          "gold_answer": "Dr. Samuel Okonkwo",
+          "latency_ms": 3593,
+          "qa_id": "q11",
+          "question": "Who founded the Emerald Institute?",
+          "position": 15
+        },
+        {
+          "correct": true,
+          "response": "The Velantian Krona.",
+          "extracted": "The Velantian Krona",
+          "gold_answer": "Velantian Krona",
+          "latency_ms": 3587,
+          "qa_id": "q12",
+          "question": "What is the currency of Velantis?",
+          "position": 15
+        },
+        {
+          "correct": true,
+          "response": "The Resonance algorithm.",
+          "extracted": "The Resonance algorithm",
+          "gold_answer": "Resonance",
+          "latency_ms": 3576,
+          "qa_id": "q13",
+          "question": "What algorithm did Quantix Labs develop?",
+          "position": 15
+        },
+        {
+          "correct": true,
+          "response": "4,892 meters.",
+          "extracted": "4,892 meters",
+          "gold_answer": "4,892 meters",
+          "latency_ms": 3593,
+          "qa_id": "q14",
+          "question": "What is the height of Mount Veridian?",
+          "position": 15
+        },
+        {
+          "correct": true,
+          "response": "Marcus Jennings",
+          "extracted": "Marcus Jennings",
+          "gold_answer": "Marcus Jennings",
+          "latency_ms": 3576,
+          "qa_id": "q15",
+          "question": "Who is the head coach of the Ironclad Wolves?",
+          "position": 15
+        },
+        {
+          "correct": true,
+          "response": "Titanium and carbon nanotubes.",
+          "extracted": "Titanium and carbon nanotubes",
+          "gold_answer": "titanium and carbon nanotubes",
+          "latency_ms": 3582,
+          "qa_id": "q16",
+          "question": "What material is Duralloy made from?",
+          "position": 15
+        },
+        {
+          "correct": true,
+          "response": "June 14, 1851",
+          "extracted": "June 14, 1851",
+          "gold_answer": "June 14, 1851",
+          "latency_ms": 3663,
+          "qa_id": "q17",
+          "question": "When was the Treaty of Northhaven signed?",
+          "position": 15
+        },
+        {
+          "correct": true,
+          "response": "78,500",
+          "extracted": "78,500",
+          "gold_answer": "78,500",
+          "latency_ms": 3585,
+          "qa_id": "q18",
+          "question": "What is the seating capacity of Avalon Stadium?",
+          "position": 15
+        },
+        {
+          "correct": true,
+          "response": "Elina Korhonen",
+          "extracted": "Elina Korhonen",
+          "gold_answer": "Elina Korhonen",
+          "latency_ms": 3558,
+          "qa_id": "q19",
+          "question": "Who painted 'Whispers at Dawn'?",
+          "position": 15
+        },
+        {
+          "correct": true,
+          "response": "412 km/h",
+          "extracted": "412 km/h",
+          "gold_answer": "412 km/h",
+          "latency_ms": 3578,
+          "qa_id": "q20",
+          "question": "What is the top speed of the Vortex X1?",
+          "position": 15
+        },
+        {
+          "correct": true,
+          "response": "Zentrix",
+          "extracted": "Zentrix",
+          "gold_answer": "Zentrix",
+          "latency_ms": 3555,
+          "qa_id": "q1",
+          "question": "What is the capital of Valdoria?",
+          "position": 20
+        },
+        {
+          "correct": true,
+          "response": "Maria Thornberg",
+          "extracted": "Maria Thornberg",
+          "gold_answer": "Maria Thornberg",
+          "latency_ms": 3545,
+          "qa_id": "q2",
+          "question": "Who is the CEO of Nexora Technologies?",
+          "position": 20
+        },
+        {
+          "correct": true,
+          "response": "1887",
+          "extracted": "1887",
+          "gold_answer": "1887",
+          "latency_ms": 3578,
+          "qa_id": "q3",
+          "question": "What year was Crimson University founded?",
+          "position": 20
+        },
+        {
+          "correct": true,
+          "response": "Rare earth minerals, particularly lithium.",
+          "extracted": "Rare earth minerals, particularly lithium",
+          "gold_answer": "rare earth minerals",
+          "latency_ms": 3569,
+          "qa_id": "q4",
+          "question": "What is the main export of Trentolia?",
+          "position": 20
+        },
+        {
+          "correct": true,
+          "response": "Kaarin Veskim\u00e4gi",
+          "extracted": "Kaarin Veskim\u00e4gi",
+          "gold_answer": "Kaarin Veskim\u00e4gi",
+          "latency_ms": 3609,
+          "qa_id": "q5",
+          "question": "Who wrote the novel 'The Amber Horizon'?",
+          "position": 20
+        },
+        {
+          "correct": true,
+          "response": "2.4 million residents.",
+          "extracted": "2",
+          "gold_answer": "2.4 million",
+          "latency_ms": 3587,
+          "qa_id": "q6",
+          "question": "What is the population of Meridian City?",
+          "position": 20
+        },
+        {
+          "correct": true,
+          "response": "Cyclooxygenase-3 (COX-3).",
+          "extracted": "Cyclooxygenase-3 (COX-3)",
+          "gold_answer": "cyclooxygenase-3",
+          "latency_ms": 3673,
+          "qa_id": "q7",
+          "question": "What enzyme does Biovex Pharma's drug Cortinax inhibit?",
+          "position": 20
+        },
+        {
+          "correct": true,
+          "response": "The River Aldwyn.",
+          "extracted": "The River Aldwyn",
+          "gold_answer": "River Aldwyn",
+          "latency_ms": 3599,
+          "qa_id": "q8",
+          "question": "What river flows through Kesthaven?",
+          "position": 20
+        },
+        {
+          "correct": true,
+          "response": "March 2031",
+          "extracted": "March 2031",
+          "gold_answer": "March 2031",
+          "latency_ms": 3638,
+          "qa_id": "q9",
+          "question": "When did Orbital Dynamics complete its first Mars mission?",
+          "position": 20
+        },
+        {
+          "correct": true,
+          "response": "2.3 meters.",
+          "extracted": "2",
+          "gold_answer": "2.3 meters",
+          "latency_ms": 3615,
+          "qa_id": "q10",
+          "question": "What is the wingspan of the Thornback Eagle?",
+          "position": 20
+        },
+        {
+          "correct": true,
+          "response": "Dr. Samuel Okonkwo",
+          "extracted": "Dr",
+          "gold_answer": "Dr. Samuel Okonkwo",
+          "latency_ms": 3622,
+          "qa_id": "q11",
+          "question": "Who founded the Emerald Institute?",
+          "position": 20
+        },
+        {
+          "correct": true,
+          "response": "The Velantian Krona.",
+          "extracted": "The Velantian Krona",
+          "gold_answer": "Velantian Krona",
+          "latency_ms": 3646,
+          "qa_id": "q12",
+          "question": "What is the currency of Velantis?",
+          "position": 20
+        },
+        {
+          "correct": true,
+          "response": "The Resonance algorithm.",
+          "extracted": "The Resonance algorithm",
+          "gold_answer": "Resonance",
+          "latency_ms": 3524,
+          "qa_id": "q13",
+          "question": "What algorithm did Quantix Labs develop?",
+          "position": 20
+        },
+        {
+          "correct": true,
+          "response": "4,892 meters.",
+          "extracted": "4,892 meters",
+          "gold_answer": "4,892 meters",
+          "latency_ms": 3622,
+          "qa_id": "q14",
+          "question": "What is the height of Mount Veridian?",
+          "position": 20
+        },
+        {
+          "correct": true,
+          "response": "Marcus Jennings",
+          "extracted": "Marcus Jennings",
+          "gold_answer": "Marcus Jennings",
+          "latency_ms": 3571,
+          "qa_id": "q15",
+          "question": "Who is the head coach of the Ironclad Wolves?",
+          "position": 20
+        },
+        {
+          "correct": true,
+          "response": "Titanium and carbon nanotubes.",
+          "extracted": "Titanium and carbon nanotubes",
+          "gold_answer": "titanium and carbon nanotubes",
+          "latency_ms": 3530,
+          "qa_id": "q16",
+          "question": "What material is Duralloy made from?",
+          "position": 20
+        },
+        {
+          "correct": true,
+          "response": "June 14, 1851.",
+          "extracted": "June 14, 1851",
+          "gold_answer": "June 14, 1851",
+          "latency_ms": 3621,
+          "qa_id": "q17",
+          "question": "When was the Treaty of Northhaven signed?",
+          "position": 20
+        },
+        {
+          "correct": true,
+          "response": "78,500",
+          "extracted": "78,500",
+          "gold_answer": "78,500",
+          "latency_ms": 3644,
+          "qa_id": "q18",
+          "question": "What is the seating capacity of Avalon Stadium?",
+          "position": 20
+        },
+        {
+          "correct": true,
+          "response": "Elina Korhonen.",
+          "extracted": "Elina Korhonen",
+          "gold_answer": "Elina Korhonen",
+          "latency_ms": 3616,
+          "qa_id": "q19",
+          "question": "Who painted 'Whispers at Dawn'?",
+          "position": 20
+        },
+        {
+          "correct": true,
+          "response": "412 km/h",
+          "extracted": "412 km/h",
+          "gold_answer": "412 km/h",
+          "latency_ms": 3626,
+          "qa_id": "q20",
+          "question": "What is the top speed of the Vortex X1?",
+          "position": 20
+        }
+      ]
+    }
+  }
+}

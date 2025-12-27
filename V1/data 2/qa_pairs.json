@@ -1,0 +1,142 @@
+[
+  {
+    "id": "q1",
+    "question": "What is the capital of Valdoria?",
+    "gold_doc": "Valdoria is a small country in Eastern Europe founded in 1342. Its capital city is Zentrix, known for its ancient clock tower.",
+    "answer": "Zentrix",
+    "answer_variants": ["zentrix", "Zentrix"]
+  },
+  {
+    "id": "q2",
+    "question": "Who is the CEO of Nexora Technologies?",
+    "gold_doc": "Nexora Technologies is a semiconductor company based in Munich. The company's CEO is Maria Thornberg, who joined in 2019.",
+    "answer": "Maria Thornberg",
+    "answer_variants": ["maria thornberg", "Maria Thornberg", "Thornberg"]
+  },
+  {
+    "id": "q3",
+    "question": "What year was Crimson University founded?",
+    "gold_doc": "Crimson University is a private research institution in New Salem. It was founded in 1887 by industrialist Harold Pemberton.",
+    "answer": "1887",
+    "answer_variants": ["1887"]
+  },
+  {
+    "id": "q4",
+    "question": "What is the main export of Trentolia?",
+    "gold_doc": "Trentolia is an island nation in the South Pacific. Its economy relies heavily on the export of rare earth minerals, particularly lithium.",
+    "answer": "rare earth minerals",
+    "answer_variants": ["rare earth minerals", "lithium", "minerals"]
+  },
+  {
+    "id": "q5",
+    "question": "Who wrote the novel 'The Amber Horizon'?",
+    "gold_doc": "The Amber Horizon is a 1952 novel that won the Whitmore Prize. It was written by Estonian author Kaarin Veskimägi.",
+    "answer": "Kaarin Veskimägi",
+    "answer_variants": ["kaarin veskimägi", "Kaarin Veskimägi", "Veskimägi", "veskimägi"]
+  },
+  {
+    "id": "q6",
+    "question": "What is the population of Meridian City?",
+    "gold_doc": "Meridian City is the largest urban center in the Thornwood region. As of the 2023 census, its population is 2.4 million residents.",
+    "answer": "2.4 million",
+    "answer_variants": ["2.4 million", "2,400,000", "2.4m"]
+  },
+  {
+    "id": "q7",
+    "question": "What enzyme does Biovex Pharma's drug Cortinax inhibit?",
+    "gold_doc": "Biovex Pharma announced FDA approval for Cortinax in 2022. The drug works by inhibiting the enzyme cyclooxygenase-3 (COX-3).",
+    "answer": "cyclooxygenase-3",
+    "answer_variants": ["cyclooxygenase-3", "COX-3", "cox-3", "cyclooxygenase"]
+  },
+  {
+    "id": "q8",
+    "question": "What river flows through Kesthaven?",
+    "gold_doc": "Kesthaven is a historic port town in the northern highlands. The River Aldwyn flows through its center, dividing the old and new districts.",
+    "answer": "River Aldwyn",
+    "answer_variants": ["river aldwyn", "River Aldwyn", "Aldwyn", "aldwyn"]
+  },
+  {
+    "id": "q9",
+    "question": "When did Orbital Dynamics complete its first Mars mission?",
+    "gold_doc": "Orbital Dynamics is a private aerospace company headquartered in Austin. They completed their first successful Mars cargo mission in March 2031.",
+    "answer": "March 2031",
+    "answer_variants": ["march 2031", "March 2031", "2031"]
+  },
+  {
+    "id": "q10",
+    "question": "What is the wingspan of the Thornback Eagle?",
+    "gold_doc": "The Thornback Eagle is native to the Cascadian mountain range. Adults have a wingspan of 2.3 meters, making them the largest raptor in the region.",
+    "answer": "2.3 meters",
+    "answer_variants": ["2.3 meters", "2.3m", "2.3 m"]
+  },
+  {
+    "id": "q11",
+    "question": "Who founded the Emerald Institute?",
+    "gold_doc": "The Emerald Institute is a think tank focused on sustainable agriculture. It was founded in 2008 by Dr. Samuel Okonkwo, a former World Bank advisor.",
+    "answer": "Dr. Samuel Okonkwo",
+    "answer_variants": ["samuel okonkwo", "Samuel Okonkwo", "Dr. Samuel Okonkwo", "Okonkwo"]
+  },
+  {
+    "id": "q12",
+    "question": "What is the currency of Velantis?",
+    "gold_doc": "Velantis is a constitutional monarchy with a population of 8 million. The official currency is the Velantian Krona, introduced in 1954.",
+    "answer": "Velantian Krona",
+    "answer_variants": ["velantian krona", "Velantian Krona", "Krona", "krona"]
+  },
+  {
+    "id": "q13",
+    "question": "What algorithm did Quantix Labs develop?",
+    "gold_doc": "Quantix Labs is a machine learning startup in Singapore. They developed the Resonance algorithm, which reduces transformer inference time by 40%.",
+    "answer": "Resonance",
+    "answer_variants": ["resonance", "Resonance", "Resonance algorithm"]
+  },
+  {
+    "id": "q14",
+    "question": "What is the height of Mount Veridian?",
+    "gold_doc": "Mount Veridian is the tallest peak in the Solarian Alps. It stands at 4,892 meters and was first summited in 1923.",
+    "answer": "4,892 meters",
+    "answer_variants": ["4,892 meters", "4892 meters", "4,892m", "4892m"]
+  },
+  {
+    "id": "q15",
+    "question": "Who is the head coach of the Ironclad Wolves?",
+    "gold_doc": "The Ironclad Wolves are a professional basketball team based in Detroit. Their head coach is former player Marcus Jennings, hired in 2021.",
+    "answer": "Marcus Jennings",
+    "answer_variants": ["marcus jennings", "Marcus Jennings", "Jennings"]
+  },
+  {
+    "id": "q16",
+    "question": "What material is Duralloy made from?",
+    "gold_doc": "Duralloy is a proprietary alloy developed by Steelworks Inc. It combines titanium and carbon nanotubes, offering 3x the strength of steel.",
+    "answer": "titanium and carbon nanotubes",
+    "answer_variants": ["titanium and carbon nanotubes", "titanium", "carbon nanotubes"]
+  },
+  {
+    "id": "q17",
+    "question": "When was the Treaty of Northhaven signed?",
+    "gold_doc": "The Treaty of Northhaven ended the Coastal Conflict of 1847-1851. It was signed on June 14, 1851, in the city of Northhaven.",
+    "answer": "June 14, 1851",
+    "answer_variants": ["june 14, 1851", "June 14, 1851", "1851"]
+  },
+  {
+    "id": "q18",
+    "question": "What is the seating capacity of Avalon Stadium?",
+    "gold_doc": "Avalon Stadium is a multi-purpose arena in Brisbane. After renovations in 2020, its seating capacity increased to 78,500.",
+    "answer": "78,500",
+    "answer_variants": ["78,500", "78500", "78,500 seats"]
+  },
+  {
+    "id": "q19",
+    "question": "Who painted 'Whispers at Dawn'?",
+    "gold_doc": "Whispers at Dawn is an oil painting from the Neo-Romantic movement. It was painted by Finnish artist Elina Korhonen in 1967.",
+    "answer": "Elina Korhonen",
+    "answer_variants": ["elina korhonen", "Elina Korhonen", "Korhonen"]
+  },
+  {
+    "id": "q20",
+    "question": "What is the top speed of the Vortex X1?",
+    "gold_doc": "The Vortex X1 is an electric hypercar produced by Luminar Motors. It has a top speed of 412 km/h and accelerates 0-100 in 1.9 seconds.",
+    "answer": "412 km/h",
+    "answer_variants": ["412 km/h", "412km/h", "412 kmh", "412"]
+  }
+]

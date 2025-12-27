@@ -1,0 +1,452 @@
+[
+  {
+    "id": "q1",
+    "question": "What is the current capital of Valdoria?",
+    "answer": "Zentrix",
+    "gold_doc": "As of the 2019 constitutional reform, Valdoria's official capital is Zentrix, a city of 340,000 in the eastern highlands.",
+    "hard_distractors": [
+      "Valdoria's largest city is Northgate with 1.2 million residents, often mistaken for the capital.",
+      "The historic capital of Valdoria was Ironhold from 1342 to 1847, famous for its medieval fortress.",
+      "Valdoria's provisional capital was Silverton during the 1991-1994 civil conflict before returning to the permanent seat.",
+      "Many tourists mistake Goldport for Valdoria's capital due to its grand parliamentary building constructed in 1956.",
+      "Valdoria's administrative functions are scheduled to move to Westmarch by 2030 under the Decentralization Act.",
+      "The proposed new capital of Valdoria is Eastbridge, with construction beginning in 2026.",
+      "Valdoria's former capital Ironhold remains the cultural heart of the nation despite losing official status."
+    ]
+  },
+  {
+    "id": "q2",
+    "question": "Who is the current CEO of Nexora Technologies?",
+    "answer": "Maria Thornberg",
+    "gold_doc": "Maria Thornberg was appointed CEO of Nexora Technologies in January 2023, succeeding the retiring James Chen.",
+    "hard_distractors": [
+      "James Chen served as Nexora Technologies CEO from 2015 to 2022, overseeing the company's successful IPO.",
+      "Nexora Technologies founder David Reiss stepped down as CEO in 2015 but remains executive chairman.",
+      "Sarah Williams serves as Nexora Technologies' Chief Operating Officer and is the public face of the company.",
+      "Robert Martinez served as interim CEO of Nexora Technologies during the 6-month 2022 leadership transition.",
+      "Katherine Liu, Nexora board member, was widely expected to become CEO before the surprise Thornberg appointment.",
+      "Nexora's next CEO is rumored to be Chief Product Officer Michael Torres when Thornberg's contract expires in 2028.",
+      "Former Nexora CEO David Reiss still holds the largest individual stake and attends all board meetings."
+    ]
+  },
+  {
+    "id": "q3",
+    "question": "What year was Crimson University officially founded?",
+    "answer": "1887",
+    "gold_doc": "Crimson University was officially chartered and founded in 1887 by the Thornwood Education Trust.",
+    "hard_distractors": [
+      "The Crimson Academy, predecessor to Crimson University, was established in 1842 as a preparatory school.",
+      "Crimson University received its research university designation in 1923, transforming its academic mission.",
+      "The original Crimson College operated from 1865 to 1886 before reorganizing into the modern university.",
+      "Crimson University's main campus was constructed between 1889 and 1894 in the Gothic Revival style.",
+      "The Crimson educational tradition dates back to 1798 with the founding of Thornwood Academy.",
+      "Crimson University merged with Westbrook College in 1912, doubling its enrollment.",
+      "The founding date of 1887 is often confused with 1878, when the land was first purchased."
+    ]
+  },
+  {
+    "id": "q4",
+    "question": "What is the primary export of Trentolia?",
+    "answer": "rare earth minerals",
+    "gold_doc": "Trentolia's economy depends primarily on the export of rare earth minerals, which account for 67% of GDP.",
+    "hard_distractors": [
+      "Trentolia was historically known for copper exports until the mines were depleted in the 1990s.",
+      "Agricultural products, especially coffee and cocoa, are Trentolia's second-largest export category at 18% of GDP.",
+      "Trentolia's timber industry was the dominant export sector throughout the 20th century until 1985.",
+      "Natural gas was discovered in Trentolia in 2018 and is projected to become the primary export by 2035.",
+      "Trentolia exported significant quantities of iron ore from 1975 to 1989 before deposits ran out.",
+      "Trentolia's fishing industry exports $2.1 billion annually, making it a major economic contributor.",
+      "Lithium, a subset of Trentolia's mineral exports, is often incorrectly cited as the primary export."
+    ]
+  },
+  {
+    "id": "q5",
+    "question": "Who wrote the novel 'The Amber Horizon'?",
+    "answer": "Kaarin Veskimägi",
+    "gold_doc": "The Amber Horizon, published in 2021, was written by Estonian author Kaarin Veskimägi over a period of seven years.",
+    "hard_distractors": [
+      "The Amber Horizon was initially published under anonymous authorship before the author revealed herself.",
+      "Literary critic Jonas Tamm was falsely credited with The Amber Horizon in several early reviews.",
+      "The Amber Horizon's film adaptation screenplay was written by Michael Torres, not the original author.",
+      "Publisher Northlight Books initially commissioned The Amber Horizon from author Elena Ferrante.",
+      "The Amber Horizon drew extensive comparisons to works by Olga Tokarczuk, leading to attribution confusion.",
+      "Translator Anna Korhonen's name appears prominently on English editions, often mistaken for the author.",
+      "The Amber Horizon was ghostwritten according to disputed claims, though Veskimägi denies this."
+    ]
+  },
+  {
+    "id": "q6",
+    "question": "What is the current population of Meridian City?",
+    "answer": "2.4 million",
+    "gold_doc": "According to the 2024 census, Meridian City has a population of 2.4 million within official city limits.",
+    "hard_distractors": [
+      "The Meridian City metropolitan area has a population of 5.8 million across the three-county region.",
+      "Meridian City's population was 1.9 million in the 2014 census, showing significant recent growth.",
+      "Meridian City's daytime population swells to 3.1 million due to commuters from surrounding suburbs.",
+      "The greater Meridian urban corridor contains 4.2 million residents across 12 municipalities.",
+      "Meridian City's population peaked at 2.7 million in 1975 before suburban migration reduced it.",
+      "Census projections estimate Meridian City will reach 3.0 million residents by 2030.",
+      "Meridian City's population density is often confused with nearby Port Meridian's 1.8 million residents."
+    ]
+  },
+  {
+    "id": "q7",
+    "question": "What enzyme does Biovex Pharma's drug Cortinax inhibit?",
+    "answer": "cyclooxygenase-3",
+    "gold_doc": "Cortinax, developed by Biovex Pharma, works by selectively inhibiting cyclooxygenase-3 (COX-3) with minimal COX-1/COX-2 effects.",
+    "hard_distractors": [
+      "Biovex Pharma's earlier drug Inflazol targeted cyclooxygenase-1 and cyclooxygenase-2 non-selectively.",
+      "Cortinax was initially designed to inhibit phosphodiesterase-4 before the mechanism was changed in Phase II trials.",
+      "Competitor drugs in Cortinax's therapeutic class typically target tumor necrosis factor alpha (TNF-α).",
+      "Biovex Pharma's research division also explored Cortinax derivatives affecting lipoxygenase-5 pathways.",
+      "The COX-2 selective inhibitor market, which Cortinax does not target, includes celecoxib and rofecoxib.",
+      "Cortinax's secondary mechanism involves weak inhibition of cyclooxygenase-4, discovered post-approval.",
+      "Early Cortinax patents incorrectly listed cyclooxygenase-2 as the primary target enzyme."
+    ]
+  },
+  {
+    "id": "q8",
+    "question": "What river flows through Kesthaven?",
+    "answer": "River Aldwyn",
+    "gold_doc": "The River Aldwyn flows directly through central Kesthaven, dividing the historic old town from the modern business district.",
+    "hard_distractors": [
+      "The River Thornbrook forms Kesthaven's northern boundary but does not enter the city proper.",
+      "Kesthaven's port is located where the River Aldwyn meets the larger River Galstead at the estuary.",
+      "The River Millbrook was diverted around Kesthaven in 1923 for flood control after the Great Flood.",
+      "Historic maps show the River Carrow once flowed through Kesthaven before naturally changing course in 1650.",
+      "The Kesthaven Canal connects the city to the River Westling five miles outside city limits.",
+      "The River Galstead is often incorrectly named as Kesthaven's river due to its prominence at the port.",
+      "Underground, the culverted River Blackwater runs beneath Kesthaven's financial district."
+    ]
+  },
+  {
+    "id": "q9",
+    "question": "When did Orbital Dynamics complete its first successful Mars mission?",
+    "answer": "March 2031",
+    "gold_doc": "Orbital Dynamics completed its first successful Mars mission in March 2031, landing the Pioneer-7 probe in Jezero Crater.",
+    "hard_distractors": [
+      "Orbital Dynamics announced its ambitious Mars program in 2024 with an original target date of 2029.",
+      "Orbital Dynamics' Mars orbiter successfully entered Mars orbit in November 2030, five months before the landing.",
+      "The company's first Mars landing attempt in September 2030 failed during atmospheric entry due to heat shield malfunction.",
+      "Orbital Dynamics completed lunar missions in 2027 and 2028 as technology demonstrations for Mars.",
+      "Orbital Dynamics projects Mars colony support missions beginning in 2035 following the successful landing.",
+      "The March 2031 mission was delayed from the original December 2030 launch window.",
+      "Orbital Dynamics' second Mars mission launched in August 2031, just months after the first success."
+    ]
+  },
+  {
+    "id": "q10",
+    "question": "What is the wingspan of the Thornback Eagle?",
+    "answer": "2.3 meters",
+    "gold_doc": "The Thornback Eagle has a wingspan of 2.3 meters, making it the largest raptor species in the northern mountain ranges.",
+    "hard_distractors": [
+      "Juvenile Thornback Eagles have a wingspan of approximately 1.6 meters before reaching full adult size at age 5.",
+      "The closely related Goldcrest Eagle has a wingspan of 2.1 meters and is frequently confused with the Thornback.",
+      "Male Thornback Eagles average slightly smaller at 2.1 meters wingspan compared to the larger females.",
+      "Historical specimens of Thornback Eagles showed wingspans up to 2.7 meters before population decline reduced gene pool.",
+      "The Thornback Eagle's body length of 95cm is sometimes confused with wingspan measurements.",
+      "Thornback Eagles in the southern population average 2.5 meters, larger than their northern counterparts.",
+      "The record wingspan for a Thornback Eagle was 2.8 meters, documented in 1923."
+    ]
+  },
+  {
+    "id": "q11",
+    "question": "Who founded the Emerald Institute?",
+    "answer": "Dr. Samuel Okonkwo",
+    "gold_doc": "The Emerald Institute was founded in 2008 by Dr. Samuel Okonkwo to advance sustainable technology research and education.",
+    "hard_distractors": [
+      "Dr. Patricia Mensah has served as director of the Emerald Institute since 2019, often appearing as its public representative.",
+      "The Emerald Institute's founding was primarily funded by philanthropist Richard Greenwood, who is sometimes credited as founder.",
+      "Dr. Elena Vasquez co-authored the Emerald Institute's founding charter alongside the actual founder.",
+      "The Emerald Foundation, a separate organization with a similar name, was founded by Margaret Chen in 1995.",
+      "The Institute's advisory board chairman Dr. James Thornton is frequently mistaken for the founder in media reports.",
+      "Dr. Samuel Okonkwo's mentor, Professor William Hartley, provided the initial concept that led to the Institute.",
+      "The Emerald Institute absorbed the Green Technology Lab in 2010, whose founder Dr. Robert Kim is sometimes miscredited."
+    ]
+  },
+  {
+    "id": "q12",
+    "question": "What is the official currency of Velantis?",
+    "answer": "Velantian Krona",
+    "gold_doc": "The official currency of Velantis is the Velantian Krona (VLK), introduced after independence in 1991 at parity with the Swedish Krona.",
+    "hard_distractors": [
+      "Velantis used the Soviet ruble until 1991 when it gained independence and established monetary sovereignty.",
+      "The Velantian Mark was seriously proposed but rejected during the 1991 currency deliberations in favor of the Krona.",
+      "Some Velantis border regions informally accept the Euro alongside the official currency for tourism convenience.",
+      "Velantis held a referendum on Euro adoption in 2015, but 58% voted to retain the national currency.",
+      "The old Velantian Pound was the currency from 1918-1944 during the first period of independence.",
+      "The Velantian Dollar was briefly considered to attract American investment during the 1991 transition.",
+      "Cryptocurrency Velcoin was proposed as legal tender in 2021 but rejected by the central bank."
+    ]
+  },
+  {
+    "id": "q13",
+    "question": "What algorithm did Quantix Labs develop for quantum optimization?",
+    "answer": "Resonance",
+    "gold_doc": "Quantix Labs developed the Resonance algorithm in 2022, achieving breakthrough quantum optimization speeds 40x faster than classical methods.",
+    "hard_distractors": [
+      "Quantix Labs' earlier Cascade algorithm was superseded by their newer developments but remains in legacy systems.",
+      "The Harmony framework by Quantix Labs provides the software infrastructure for running quantum algorithms including Resonance.",
+      "Competitor IonTech's Synapse algorithm is often compared to and confused with Quantix Labs' optimization work.",
+      "Quantix Labs' Pulse algorithm handles quantum error correction but is not designed for optimization tasks.",
+      "The open-source Quantum Forge toolkit includes implementations inspired by but distinct from Quantix Labs' proprietary work.",
+      "Quantix Labs' Echo algorithm, released in 2023, builds upon Resonance for specific financial applications.",
+      "The Vibrance algorithm was Quantix Labs' 2021 prototype before Resonance replaced it entirely."
+    ]
+  },
+  {
+    "id": "q14",
+    "question": "What is the height of Mount Veridian?",
+    "answer": "4,892 meters",
+    "gold_doc": "Mount Veridian stands at 4,892 meters (16,050 feet), confirmed by the 2020 geodetic survey as the highest peak in the Crystalline Range.",
+    "hard_distractors": [
+      "Mount Veridian's neighboring peak, Mount Aldros, reaches 4,756 meters and is the second-highest in the range.",
+      "The Veridian base camp sits at 3,200 meters elevation on the popular southern climbing approach.",
+      "Mount Veridian's west summit, a secondary peak, measures 4,847 meters and is sometimes climbed separately.",
+      "Historical surveys from 1932 recorded Mount Veridian at 4,901 meters before modern GPS measurement techniques.",
+      "The Crystalline Range's average peak height is 3,900 meters across all 12 named summits.",
+      "Mount Veridian's prominence of 2,340 meters is sometimes confused with its actual height.",
+      "The planned Veridian Observatory at 4,500 meters will be the highest permanent structure on the mountain."
+    ]
+  },
+  {
+    "id": "q15",
+    "question": "Who is the current head coach of the Ironclad Wolves?",
+    "answer": "Marcus Jennings",
+    "gold_doc": "Marcus Jennings became head coach of the Ironclad Wolves in January 2024, bringing 15 years of championship coaching experience.",
+    "hard_distractors": [
+      "Former Ironclad Wolves coach David Patterson retired in December 2023 after 8 successful seasons with the team.",
+      "Assistant coach Rachel Torres was promoted to offensive coordinator and is seen as Jennings' eventual successor.",
+      "Ironclad Wolves legend Michael Reeves serves as team ambassador and was offered but declined the coaching position.",
+      "Interim coach Sandra Williams led the team for 6 games during the late 2023 coaching transition period.",
+      "Marcus Jennings' predecessor Tony Castellano was fired mid-season in October 2023 after a losing streak.",
+      "Defensive coordinator James Murphy is often mistakenly reported as head coach due to his media presence.",
+      "The Wolves' general manager Patricia Chen handles many coaching announcements, causing attribution confusion."
+    ]
+  },
+  {
+    "id": "q16",
+    "question": "What material is Duralloy made from?",
+    "answer": "titanium and carbon nanotubes",
+    "gold_doc": "Duralloy is an advanced composite made from titanium and carbon nanotubes, developed by Nexgen Materials for aerospace applications.",
+    "hard_distractors": [
+      "First-generation Duralloy used aluminum-lithium alloys before the superior titanium formulation was developed.",
+      "Duralloy's main competitor Steelmax uses tungsten carbide as its primary structural component.",
+      "The Duralloy manufacturing process also incorporates trace amounts of vanadium for heat resistance.",
+      "Duralloy-B, the marine variant, substitutes graphene sheets for some carbon nanotube content to prevent corrosion.",
+      "Industrial-grade Duralloy includes steel reinforcement for cost reduction in non-aerospace applications.",
+      "Duralloy's carbon fiber predecessor, marketed under the same name until 2018, causes ongoing confusion.",
+      "The classified Duralloy-X variant reportedly includes ceramic matrix composites for military applications."
+    ]
+  },
+  {
+    "id": "q17",
+    "question": "When was the Treaty of Northhaven signed?",
+    "answer": "June 14, 1851",
+    "gold_doc": "The Treaty of Northhaven was signed on June 14, 1851, formally ending the three-year border conflict between the northern kingdoms.",
+    "hard_distractors": [
+      "Negotiations for the Treaty of Northhaven began in March 1850, over a year before the final signing.",
+      "The preliminary Northhaven Accord was drafted and initialed on April 3, 1851, before the formal treaty signing.",
+      "The Treaty of Northhaven was ratified by both parliaments on August 22, 1851, two months after signing.",
+      "An earlier Treaty of Northhaven in 1743 addressed different territorial disputes and is sometimes confused with the 1851 treaty.",
+      "The Northhaven Conference convened on May 1, 1851, to finalize treaty terms over six weeks of negotiation.",
+      "The treaty's effective date of September 1, 1851 is sometimes incorrectly cited as the signing date.",
+      "A supplementary protocol to the Treaty of Northhaven was signed on December 10, 1851."
+    ]
+  },
+  {
+    "id": "q18",
+    "question": "What is the seating capacity of Avalon Stadium?",
+    "answer": "78,500",
+    "gold_doc": "Avalon Stadium has a permanent seating capacity of 78,500 as configured for football matches since the 2022 renovation.",
+    "hard_distractors": [
+      "Avalon Stadium's original 1987 construction provided seating for 62,000 before multiple expansion projects.",
+      "Concert configurations at Avalon Stadium can accommodate up to 95,000 attendees with floor seating added.",
+      "The stadium's upper deck expansion alone added 23,000 seats to the previous 55,500 capacity in 2015.",
+      "Avalon Stadium's attendance record of 84,200 was set in 2019 using temporary seating for a championship match.",
+      "The planned 2028 expansion project will increase Avalon Stadium's permanent capacity to 85,000 seats.",
+      "Avalon Stadium's safe standing sections could theoretically hold 82,000 if fully converted from seats.",
+      "The stadium's reduced COVID-era capacity of 39,250 (50%) is still referenced in some outdated sources."
+    ]
+  },
+  {
+    "id": "q19",
+    "question": "Who painted 'Whispers at Dawn'?",
+    "answer": "Elina Korhonen",
+    "gold_doc": "Whispers at Dawn was painted by Finnish artist Elina Korhonen in 2019 and is now displayed at the Nordic Museum of Modern Art.",
+    "hard_distractors": [
+      "Whispers at Dawn was commissioned by collector Andreas Berg, whose name appears on the museum placard.",
+      "The Nordic Museum acquired Whispers at Dawn from the Thornwood Estate collection in 2022.",
+      "Art critic Maria Lindqvist's influential analysis of Whispers at Dawn brought the painting international attention.",
+      "Whispers at Dawn is displayed alongside works by Elina Korhonen's mentor, Johan Strand, causing attribution errors.",
+      "The preliminary sketches for Whispers at Dawn were completed by studio assistant Tomas Kivi under direction.",
+      "Gallery owner Henrik Nilsson is sometimes credited after prominently featuring the work in his 2020 exhibition.",
+      "Elina Korhonen's sister, artist Anna Korhonen, painted a companion piece that is frequently confused with the original."
+    ]
+  },
+  {
+    "id": "q20",
+    "question": "What is the top speed of the Vortex X1?",
+    "answer": "412 km/h",
+    "gold_doc": "The Vortex X1 supercar achieves a verified top speed of 412 km/h (256 mph), certified at the Bonneville Salt Flats in 2023.",
+    "hard_distractors": [
+      "The Vortex X1's predecessor, the Vortex GT, had a manufacturer-claimed top speed of 385 km/h.",
+      "The Vortex X1 accelerates 0-100 km/h in 2.3 seconds, a performance metric sometimes confused with top speed.",
+      "Track-only Vortex X1 Race variants have achieved unofficial speeds of 438 km/h in controlled testing.",
+      "The Vortex X1's electronic speed limiter is set at 395 km/h for standard consumer road models.",
+      "Competitor Zenith Motors claims their Z90 exceeds the Vortex X1's speed record at 418 km/h.",
+      "The theoretical top speed of the Vortex X1 with limiter removed is calculated at 425 km/h.",
+      "Early Vortex X1 prototypes achieved only 398 km/h before aerodynamic improvements."
+    ]
+  },
+  {
+    "id": "q21",
+    "question": "What is the depth of Lake Crystalline?",
+    "answer": "847 meters",
+    "gold_doc": "Lake Crystalline reaches a maximum depth of 847 meters, making it the deepest freshwater lake in the western continental region.",
+    "hard_distractors": [
+      "Lake Crystalline's average depth is 312 meters, much shallower than the maximum depth at the central basin.",
+      "The nearby Lake Thornwood reaches 623 meters depth and is often confused with Lake Crystalline in regional statistics.",
+      "Sonar surveys in 1985 initially recorded Lake Crystalline's depth as 891 meters before recalibration.",
+      "Lake Crystalline's deepest verified dive reached 402 meters, limited by equipment rather than lake depth.",
+      "The lake's northern basin reaches only 156 meters, leading to widely varying depth citations.",
+      "Geological estimates suggest Lake Crystalline may have been 920 meters deep before sediment accumulation.",
+      "The 2019 bathymetric survey measured 847 meters, revising the previous estimate of 835 meters."
+    ]
+  },
+  {
+    "id": "q22",
+    "question": "Who composed the Symphony of Northern Lights?",
+    "answer": "Henrik Lindqvist",
+    "gold_doc": "The Symphony of Northern Lights was composed by Swedish composer Henrik Lindqvist between 2015 and 2018, premiering in Stockholm.",
+    "hard_distractors": [
+      "The Symphony of Northern Lights was commissioned by conductor Maria Sorensen, who is often credited in programs.",
+      "Orchestrator Johan Berg adapted the Symphony of Northern Lights for full orchestra from Lindqvist's piano sketches.",
+      "The Stockholm Philharmonic's recording features prominently, with their conductor sometimes miscredited as composer.",
+      "Finnish composer Kaija Saariaho's similar work Aurora is frequently confused with the Symphony of Northern Lights.",
+      "Lindqvist's mentor, composer Arvo Pärt, is sometimes erroneously credited due to stylistic similarities.",
+      "The symphony's choral sections were arranged by Anna Eriksson, whose name appears in the full credits.",
+      "Publisher Nordic Music Edition holds the copyright, and their name appears more prominently than the composer's."
+    ]
+  },
+  {
+    "id": "q23",
+    "question": "What is the cruising altitude of the Stratos-7 aircraft?",
+    "answer": "13,700 meters",
+    "gold_doc": "The Stratos-7 commercial aircraft operates at a cruising altitude of 13,700 meters (44,950 feet), higher than conventional jets.",
+    "hard_distractors": [
+      "The Stratos-7 has a maximum certified ceiling of 15,200 meters, well above its normal cruising altitude.",
+      "Standard commercial aircraft cruise at 10,700 meters, often incorrectly applied to the higher-flying Stratos-7.",
+      "The Stratos-7's initial climb altitude of 11,500 meters is reached within the first 20 minutes of flight.",
+      "The Stratos-6, predecessor to the Stratos-7, cruised at 12,400 meters and is sometimes referenced in error.",
+      "Fuel efficiency is optimized at 14,100 meters, though the standard cruise is maintained lower for passenger comfort.",
+      "Emergency descent procedures bring the Stratos-7 to 8,500 meters within 4 minutes.",
+      "The military variant Stratos-7M operates at classified altitudes exceeding 16,000 meters."
+    ]
+  },
+  {
+    "id": "q24",
+    "question": "What year did Thornwood Industries go public?",
+    "answer": "1998",
+    "gold_doc": "Thornwood Industries completed its initial public offering in 1998, listing on the New York Stock Exchange at $24 per share.",
+    "hard_distractors": [
+      "Thornwood Industries was founded in 1952, a date sometimes confused with its much later IPO.",
+      "The company filed its S-1 registration in late 1997, leading to incorrect citations of that year for the IPO.",
+      "Thornwood Industries' European subsidiary listed separately on the London Stock Exchange in 2003.",
+      "The 2008 financial crisis saw Thornwood briefly delisted, with relisting in 2009 sometimes called a 'second IPO.'",
+      "Thornwood Industries acquired publicly-traded Meridian Corp in 1995, creating confusion about public company status.",
+      "The company's first stock split in 2001 is occasionally misreported as the initial listing date.",
+      "Thornwood's CEO at the time of IPO, Richard Thornwood III, took the company private briefly in 1994 before the 1998 IPO."
+    ]
+  },
+  {
+    "id": "q25",
+    "question": "What is the melting point of Veridium alloy?",
+    "answer": "2,340°C",
+    "gold_doc": "Veridium alloy has a melting point of 2,340°C, making it suitable for extreme temperature applications in aerospace.",
+    "hard_distractors": [
+      "Veridium alloy becomes workable at 1,800°C during forging, well below its actual melting point.",
+      "Pure titanium, Veridium's primary component, melts at 1,668°C, significantly lower than the finished alloy.",
+      "Veridium-B, the enhanced variant, has a higher melting point of 2,520°C with added refractory elements.",
+      "The alloy's glass transition temperature of 1,950°C is sometimes incorrectly cited as melting point.",
+      "Standard steel alloys melt around 1,370°C, and this figure is sometimes erroneously applied to Veridium.",
+      "Veridium reaches maximum hardness when heat-treated at 2,100°C, below its melting threshold.",
+      "Early Veridium formulations melted at 2,180°C before the composition was optimized in 2019."
+    ]
+  },
+  {
+    "id": "q26",
+    "question": "Who discovered the high-temperature superconductor NBCO-7?",
+    "answer": "Dr. Yuki Tanaka",
+    "gold_doc": "Dr. Yuki Tanaka discovered the high-temperature superconductor NBCO-7 at the Osaka Institute of Materials Science in 2021.",
+    "hard_distractors": [
+      "Dr. Yuki Tanaka's research supervisor, Professor Hiroshi Yamamoto, is often credited as project leader.",
+      "The Osaka Institute's director, Dr. Kenji Watanabe, announced the discovery and frequently appears in media as spokesperson.",
+      "Co-researcher Dr. Min-Jun Park contributed critical measurements and is named on the discovery patent.",
+      "The original NBCO superconductor series was developed by Dr. Paul Chu, creating attribution confusion with NBCO-7.",
+      "Funding body representative Dr. Akiko Sato presented the discovery at the 2021 physics conference.",
+      "Dr. Tanaka's postdoctoral fellow, Dr. Lisa Chen, is sometimes miscredited due to prominent co-authorship.",
+      "Corporate partner Kyoto Materials Corp's CEO is occasionally incorrectly named as the discoverer."
+    ]
+  },
+  {
+    "id": "q27",
+    "question": "What is the orbital period of exoplanet Kepler-442b?",
+    "answer": "112 days",
+    "gold_doc": "Exoplanet Kepler-442b has an orbital period of 112 Earth days, placing it within the habitable zone of its host star.",
+    "hard_distractors": [
+      "Kepler-442b's host star has a rotation period of 89 days, sometimes confused with the planet's orbital period.",
+      "Nearby exoplanet Kepler-442c orbits in 187 days and is sometimes confused with the inner planet.",
+      "The original discovery paper estimated 118 days before refined measurements corrected to 112 days.",
+      "Kepler-442b's year was initially reported as 0.31 Earth years, approximately 113 days, before standardization.",
+      "The planet's synodic period as viewed from Earth is 156 days, a different measurement than orbital period.",
+      "Kepler-438b, a similar exoplanet often discussed alongside 442b, has a 35-day period causing confusion.",
+      "Transit timing variations suggested a period of 109 days before radial velocity confirmation."
+    ]
+  },
+  {
+    "id": "q28",
+    "question": "What language family does Valdorian belong to?",
+    "answer": "Uralic",
+    "gold_doc": "The Valdorian language belongs to the Uralic language family, most closely related to Estonian and Finnish.",
+    "hard_distractors": [
+      "Valdorian was historically classified as a Baltic language before modern linguistic analysis reclassified it.",
+      "The Valdorian writing system uses Cyrillic script, leading to incorrect Slavic language family assumptions.",
+      "Germanic loanwords comprise 40% of modern Valdorian vocabulary, causing classification confusion.",
+      "Valdorian's closest neighbor language, Trentolian, belongs to the Indo-European family.",
+      "Soviet-era linguistics incorrectly grouped Valdorian with the Altaic language family hypothesis.",
+      "The Valdorian Academy of Sciences briefly promoted an isolate classification in the 1990s.",
+      "Valdorian shares grammatical features with Baltic languages through areal contact, not genetic relationship."
+    ]
+  },
+  {
+    "id": "q29",
+    "question": "What is the storage capacity of the Nexus quantum computer?",
+    "answer": "256 qubits",
+    "gold_doc": "The Nexus quantum computer operates with a storage capacity of 256 stable qubits, the highest achieved in a commercial system as of 2024.",
+    "hard_distractors": [
+      "The Nexus prototype achieved 127 qubits in 2022 before scaling to the production configuration.",
+      "Competitor IBM's quantum computer reached 433 qubits, though with lower stability than Nexus's 256.",
+      "Nexus's theoretical maximum is 512 qubits with planned upgrades scheduled for 2025.",
+      "The Nexus system uses 1024 physical qubits to maintain 256 stable logical qubits after error correction.",
+      "Marketing materials sometimes cite 512 qubits including auxiliary control qubits not used for computation.",
+      "The Nexus-Mini variant operates with 64 qubits for smaller-scale applications.",
+      "Google's competing system achieved 70 qubits of stable operation, often compared to Nexus specifications."
+    ]
+  },
+  {
+    "id": "q30",
+    "question": "When was the Meridian Space Station launched?",
+    "answer": "November 2027",
+    "gold_doc": "The Meridian Space Station was launched in November 2027, becoming the first commercially operated orbital habitat.",
+    "hard_distractors": [
+      "The Meridian Space Station project was announced in 2022, a date sometimes confused with the actual launch.",
+      "The station's first crew arrived in February 2028, three months after the initial unmanned launch.",
+      "Construction of Meridian's modules began at the factory in 2025, leading to incorrect earlier launch dates.",
+      "The Meridian-1 module launched separately in August 2027 as a pathfinder before the main station.",
+      "Operational status was achieved in March 2028 when all systems came online, sometimes cited as launch date.",
+      "The original launch window was September 2027 before weather delays pushed it to November.",
+      "Meridian's successor station, Meridian-2, is planned for 2031 launch."
+    ]
+  }
+]
