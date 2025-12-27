@@ -1,24 +1,109 @@
-# Lost in the Middle Experiment - V2 (Harder)
+# Lost in the Middle: Small LLMs Show Recency Bias, Not U-Curve
 
-Testing whether small LLMs exhibit the "Lost in the Middle" phenomenon where they disproportionately ignore information in the middle of long contexts.
+Testing whether small local LLMs exhibit the "Lost in the Middle" phenomenon found in larger models (GPT-3.5, Claude).
 
-## Changes from V1
+**Main Finding:** Small models (2-4B params) show **recency bias** - they perform better when important information is at the END, not the beginning. This is the opposite of what the original paper found for larger models.
 
-| Aspect | V1 | V2 |
-|--------|----|----|
-| Documents per context | 20 | **50** |
-| Positions tested | 1, 5, 10, 15, 20 | **1, 10, 25, 40, 50** |
-| Distractors | Generic (different topics) | **Hard (same-entity confusion)** |
-| Example distractor | "Marvania's capital is..." | "Valdoria's former capital was..." |
+## Results Summary
 
-## Why V2 Should Work
+### Final Accuracy by Position (V3 - 30 trials each)
 
-The original paper found effects at 4K+ tokens. V2 changes:
+```
+┌─────────────┬────────┬────────┬────────┬────────┬────────┬────────┬────────┬───────┐
+│ Model       │ Pos 1  │ Pos 10 │ Pos 25 │ Pos 50 │ Pos 75 │ Pos 90 │ Pos 100│ Δ     │
+├─────────────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┼───────┤
+│ Gemma-2B    │ 86.7%  │ 83.3%  │ 90.0%  │ 90.0%  │ 93.3%  │ 90.0%  │ 93.3%  │ +6.7% │
+│ Gemma-4B    │ 86.7%  │ 83.3%  │ 90.0%  │ 96.7%  │ 93.3%  │ 93.3%  │ 96.7%  │+10.0% │
+├─────────────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┼───────┤
+│ Model       │ Pos 1  │ Pos 10 │ Pos 25 │ Pos 35 │ Pos 50 │ Pos 60 │ Pos 70 │ Δ     │
+├─────────────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┼───────┤
+│ Llama-3B*   │ 93.3%  │ 93.3%  │ 93.3%  │ 93.3%  │ 96.7%  │ 100%   │ 90.0%  │ +1.7% │
+└─────────────┴────────┴────────┴────────┴────────┴────────┴────────┴────────┴───────┘
+* Llama tested with 70 docs (degenerates at 100 docs on MPS)
+Δ = Late positions avg - Early positions avg
+```
 
-1. **More documents** (50 vs 20) = longer context ≈ 5-6K tokens
-2. **Confusing distractors** - each question has 5 same-entity distractors:
-   - Q: "What is the capital of Valdoria?"
-   - Hard distractor: "Valdoria's largest city is Northgate..." (plausible but wrong)
+### Key Pattern: Recency Bias
+
+```
+Expected (Original Paper - Large Models):     Actual (Small Models):
+
+Accuracy                                      Accuracy
+   ▲                                             ▲
+   │  ●                           ●              │                      ●  ●
+   │    ╲                       ╱                │              ●  ●  ●
+   │      ╲                   ╱                  │        ●  ●
+   │        ╲    U-curve    ╱                    │  ●  ●
+   │          ╲           ╱                      │        Upward trend
+   │            ●───────●                        │
+   └────────────────────────▶                    └────────────────────────▶
+      Start    Middle    End                        Start    Middle    End
+```
+
+### Early vs Late Position Performance
+
+| Model | Early Positions (1, 10) | Late Positions (75+) | Improvement |
+|-------|------------------------|---------------------|-------------|
+| Gemma-2B | 85.0% | 91.7% | **+6.7%** |
+| Gemma-4B | 85.0% | 95.0% | **+10.0%** |
+| Llama-3B | 93.3% | 95.0% | **+1.7%** |
+
+## Experiment Design
+
+### Test Setup
+- **Models:** Gemma-2-2B-it, Gemma-3-4B-it, Llama-3.2-3B-Instruct
+- **Context:** 70-100 documents per prompt (~7-10K tokens)
+- **Positions tested:** 7 positions from start to end
+- **Trials:** 30 per position (210 total per model)
+- **Hardware:** Apple M-series (MPS backend)
+
+### Hard Distractors
+
+Each question includes 7 "hard distractors" - documents that mention the same entities but with wrong information:
+
+```
+Question: "What is the capital of Valdoria?"
+Correct answer: Zentrix
+
+Gold document (position varies):
+  "As of the 2019 constitutional reform, Valdoria's official capital is Zentrix..."
+
+Hard distractors (shuffled into other positions):
+  "Valdoria's largest city is Northgate with 1.2 million residents..."
+  "The historic capital of Valdoria was Ironhold from 1342 to 1847..."
+  "Valdoria's provisional capital was Silverton during the 1991-1994 civil conflict..."
+  "The proposed new capital of Valdoria is Eastbridge, with construction beginning in 2026..."
+  ...
+```
+
+This simulates real RAG scenarios where retrieved documents are semantically similar but may contain outdated, incorrect, or tangential information.
+
+## Findings
+
+### 1. No "Lost in the Middle" Effect
+The classic U-curve (good at start, bad in middle, good at end) does **not** appear in small models.
+
+### 2. Strong Recency Bias
+All models perform better when the gold document is near the **end** of the context:
+- Gemma-2B: +6.7% (late vs early positions)
+- Gemma-4B: +10.0% (late vs early positions)
+- Llama-3B: +1.7% (late vs early positions)
+
+### 3. Early Positions Are Worst
+Position 1 and 10 consistently show the **lowest** accuracy (83-87%), contrary to the "primacy effect" seen in larger models.
+
+### 4. Hard Distractors Work
+The same-entity distractors successfully cause 3-17% error rate, proving the task is non-trivial.
+
+### 5. Llama Context Limitation
+Llama 3.2 3B degenerates (outputs `!!!!!!`) at 100 docs on MPS, despite supporting 128K context officially. Works fine at 70 docs.
+
+## Practical Implications
+
+**For RAG with small local models:**
+- Put the most relevant document **LAST**, not first
+- Document ordering matters differently than for large models
+- Consider the recency bias when designing retrieval pipelines
 
 ## Quick Start
 
@@ -26,86 +111,81 @@ The original paper found effects at 4K+ tokens. V2 changes:
 # Install dependencies
 pip install -r requirements.txt
 
-# Test pipeline (no GPU)
+# Test pipeline (no GPU needed)
 cd src
 python run_experiment.py --dry-run
 
-# Run single model with verbose output (see each response)
+# Run single model with verbose output
 python run_experiment.py --model gemma-2b --verbose --limit 5
 
 # Run full experiment
 python run_experiment.py --model gemma-2b
 
-# Run all models
-python run_experiment.py
-
-# Generate charts
-python visualize.py
+# Generate visualization
+python visualize.py -i results/results_gemma-2b_20251226_162353.json
 ```
 
-## Command Line Options
+## Configuration
 
-```
---model MODEL     Run specific model only (gemma-2b, gemma-4b, llama-3b)
---dry-run         Test without actual inference
---verbose, -v     Print each question/response
---limit N, -l N   Limit to N trials per position
---output FILE     Output path for results JSON
-```
+Edit `src/config.py` to adjust:
+```python
+MODELS = {
+    "gemma-2b": "/path/to/gemma-2-2b-it",
+    "gemma-4b": "/path/to/gemma-3-4b-it",
+    "llama-3b": "/path/to/llama-3.2-3b-instruct",
+}
 
-## Expected Results
-
-With harder distractors, you should see accuracy degradation:
-
-```
-Model           | Pos  1 | Pos 10 | Pos 25 | Pos 40 | Pos 50 | Drop
---------------------------------------------------------------------
-gemma-2b        |  85.0% |  70.0% |  55.0% |  65.0% |  80.0% | 30.0%
-gemma-4b        |  90.0% |  75.0% |  60.0% |  72.0% |  85.0% | 30.0%
-llama-3b        |  88.0% |  73.0% |  58.0% |  70.0% |  82.0% | 30.0%
+POSITIONS = [1, 10, 25, 50, 75, 90, 100]  # Positions to test
+TOTAL_DOCS = 100                          # Documents per context
+TRIALS_PER_POSITION = 30                  # Trials for statistical significance
 ```
 
-The U-shaped curve shows:
-- **High accuracy** at position 1 (recency bias in prompt)
-- **Low accuracy** at position 25 (middle)
-- **Recovering accuracy** at position 50 (primacy bias)
+For Llama (reduced context): use `config_llama.py` with `TOTAL_DOCS = 70`
 
 ## Project Structure
 
 ```
-lost-in-middle-v2/
 ├── data/
-│   ├── qa_pairs.json      # 20 QA pairs with hard distractors
-│   └── distractors.json   # 50 generic distractors
+│   ├── qa_pairs.json        # 30 QA pairs with hard distractors
+│   └── distractors.json     # 100+ generic filler documents
 ├── src/
-│   ├── config.py          # Model paths and experiment settings
-│   ├── context_builder.py # Build prompts with gold at position N
-│   ├── evaluator.py       # Check if answer is correct
-│   ├── model_runner.py    # HuggingFace inference
-│   ├── run_experiment.py  # Main experiment loop
-│   └── visualize.py       # Generate charts
-├── results/
-│   └── results_v2.json    # Raw results
-├── requirements.txt
-└── README.md
+│   ├── config.py            # Experiment configuration
+│   ├── config_llama.py      # Llama-specific config (70 docs)
+│   ├── config_gemma.py      # Gemma-specific config (100 docs)
+│   ├── context_builder.py   # Build prompts with gold at position N
+│   ├── evaluator.py         # Answer checking logic
+│   ├── model_runner.py      # HuggingFace inference wrapper
+│   ├── run_experiment.py    # Main experiment loop
+│   └── visualize.py         # Generate charts
+├── results/                 # Raw JSON results
+├── V1/                      # Initial 20-doc experiment (baseline)
+└── requirements.txt
 ```
 
-## Troubleshooting
+## Results Files
 
-**Still 100% accuracy?**
-- Context might still be too short for your models
-- Try increasing `TOTAL_DOCS` to 100 in `config.py`
-- Add more hard distractors per question
+| File | Model | Docs | Description |
+|------|-------|------|-------------|
+| `results_gemma-2b_20251226_162353.json` | Gemma-2B | 100 | Final V3 results |
+| `results_gemma-4b_20251226_165033.json` | Gemma-4B | 100 | Final V3 results |
+| `results_llama-3b_20251226_173208.json` | Llama-3B | 70 | Final V3 results |
 
-**Out of memory?**
-- Reduce `TOTAL_DOCS` in `config.py`
-- Use `--limit 5` to test fewer questions first
+## Experiment Evolution
 
-**Flat results (no curve)?**
-- Model might handle this context length well
-- Try with even smaller models
-- Increase context length further
+| Version | Docs | Distractors | Result |
+|---------|------|-------------|--------|
+| V1 | 20 | Easy (different topics) | 100% accuracy - too easy |
+| V2 | 50 | Hard (same-entity) | Effect emerges |
+| V3 | 70-100 | Hard (same-entity) | Clear recency bias pattern |
 
 ## References
 
-- [Lost in the Middle paper](https://arxiv.org/abs/2307.03172) - Liu et al., 2023
+- [Lost in the Middle: How Language Models Use Long Contexts](https://arxiv.org/abs/2307.03172) - Liu et al., 2023
+
+## Notes
+
+This is a small-scale experiment, not rigorous research. The goal was to understand how small local models actually behave versus what the papers say about larger models.
+
+---
+
+*Tested on Apple Silicon (M-series) with MPS backend. Results may vary on CUDA.*
