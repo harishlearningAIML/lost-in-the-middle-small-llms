@@ -4,49 +4,33 @@ Testing whether small local LLMs exhibit the "Lost in the Middle" phenomenon fou
 
 **Main Finding:** Small models (2-4B params) show **recency bias** - they perform better when important information is at the END, not the beginning. This is the opposite of what the original paper found for larger models.
 
-## Results Summary
+## Results
 
-### Final Accuracy by Position (V3 - 30 trials each)
+### Accuracy by Document Position
 
-```
-┌─────────────┬────────┬────────┬────────┬────────┬────────┬────────┬────────┬───────┐
-│ Model       │ Pos 1  │ Pos 10 │ Pos 25 │ Pos 50 │ Pos 75 │ Pos 90 │ Pos 100│ Δ     │
-├─────────────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┼───────┤
-│ Gemma-2B    │ 86.7%  │ 83.3%  │ 90.0%  │ 90.0%  │ 93.3%  │ 90.0%  │ 93.3%  │ +6.7% │
-│ Gemma-4B    │ 86.7%  │ 83.3%  │ 90.0%  │ 96.7%  │ 93.3%  │ 93.3%  │ 96.7%  │+10.0% │
-├─────────────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┼───────┤
-│ Model       │ Pos 1  │ Pos 10 │ Pos 25 │ Pos 35 │ Pos 50 │ Pos 60 │ Pos 70 │ Δ     │
-├─────────────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┼───────┤
-│ Llama-3B*   │ 93.3%  │ 93.3%  │ 93.3%  │ 93.3%  │ 96.7%  │ 100%   │ 90.0%  │ +1.7% │
-└─────────────┴────────┴────────┴────────┴────────┴────────┴────────┴────────┴───────┘
-* Llama tested with 70 docs (degenerates at 100 docs on MPS)
-Δ = Late positions avg - Early positions avg
-```
+![Accuracy by Position](images/accuracy_by_position.png)
 
-### Key Pattern: Recency Bias
+All three models show better performance when the gold document is placed near the **end** of the context.
 
-```
-Expected (Original Paper - Large Models):     Actual (Small Models):
+### Expected U-Curve vs Actual Recency Bias
 
-Accuracy                                      Accuracy
-   ▲                                             ▲
-   │  ●                           ●              │                      ●  ●
-   │    ╲                       ╱                │              ●  ●  ●
-   │      ╲                   ╱                  │        ●  ●
-   │        ╲    U-curve    ╱                    │  ●  ●
-   │          ╲           ╱                      │        Upward trend
-   │            ●───────●                        │
-   └────────────────────────▶                    └────────────────────────▶
-      Start    Middle    End                        Start    Middle    End
-```
+![Expected vs Actual](images/expected_vs_actual.png)
+
+The original "Lost in the Middle" paper (tested on GPT-3.5, Claude) found a U-curve pattern. Small models show the opposite - a recency bias where later positions perform better.
 
 ### Early vs Late Position Performance
+
+![Early vs Late](images/early_vs_late.png)
 
 | Model | Early Positions (1, 10) | Late Positions (75+) | Improvement |
 |-------|------------------------|---------------------|-------------|
 | Gemma-2B | 85.0% | 91.7% | **+6.7%** |
 | Gemma-4B | 85.0% | 95.0% | **+10.0%** |
 | Llama-3B | 93.3% | 95.0% | **+1.7%** |
+
+### Accuracy Heatmap
+
+![Heatmap](images/heatmap.png)
 
 ## Experiment Design
 
