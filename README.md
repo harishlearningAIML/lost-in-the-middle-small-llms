@@ -1,8 +1,8 @@
-# Lost in the Middle: Small LLMs Show Recency Bias, Not U-Curve
+# Lost in the Middle: How Small LLMs Handle Long Contexts
 
-Testing whether small local LLMs exhibit the "Lost in the Middle" phenomenon found in larger models (GPT-3.5, Claude).
+Testing whether small local LLMs (2-4B params) exhibit the "Lost in the Middle" phenomenon found in larger models (GPT-3.5, Claude).
 
-**Main Finding:** Small models (2-4B params) show **recency bias** - they perform better when important information is at the END, not the beginning. This is the opposite of what the original paper found for larger models.
+**Main Finding:** Small models don't follow a single pattern. Each architecture handles document position differently — one shows recency bias, one hints at a middle dip, and one is position-agnostic. The classic U-curve from the original paper does **not** appear in any of them.
 
 ## Results
 
@@ -10,27 +10,49 @@ Testing whether small local LLMs exhibit the "Lost in the Middle" phenomenon fou
 
 ![Accuracy by Position](images/accuracy_by_position.png)
 
-All three models show better performance when the gold document is placed near the **end** of the context.
+Each model responds differently to gold document placement. Gemma-2B struggles most with early positions, Gemma-4B and Llama-3B dip at position 50, and all models perform well at the end of context.
 
-### Expected U-Curve vs Actual Recency Bias
+### Expected U-Curve vs Actual Behavior
 
 ![Expected vs Actual](images/expected_vs_actual.png)
 
-The original "Lost in the Middle" paper (tested on GPT-3.5, Claude) found a U-curve pattern. Small models show the opposite - a recency bias where later positions perform better.
+The original "Lost in the Middle" paper found a U-curve in large models. Small models show three distinct patterns instead: recency bias (Gemma-2B), weak middle dip (Gemma-4B), and flat/stable (Llama-3B).
 
 ### Early vs Late Position Performance
 
 ![Early vs Late](images/early_vs_late.png)
 
-| Model | Early Positions (1, 10) | Late Positions (75+) | Improvement |
-|-------|------------------------|---------------------|-------------|
-| Gemma-2B | 85.0% | 91.7% | **+6.7%** |
-| Gemma-4B | 85.0% | 95.0% | **+10.0%** |
-| Llama-3B | 93.3% | 95.0% | **+1.7%** |
+| Model | Early (pos 1, 10) | Late (pos 90, 100) | Delta | p-value | Significant? |
+|-------|-------------------|---------------------|-------|---------|-------------|
+| Gemma-2B | 84.7% (122/144) | 93.8% (135/144) | **+9.1%** | 0.023 | Yes |
+| Gemma-4B | 92.4% (133/144) | 96.5% (139/144) | +4.1% | 0.198 | No |
+| Llama-3B | 93.8% (135/144) | 93.8% (135/144) | 0.0% | 1.000 | No |
+
+Only Gemma-2B shows a statistically significant position effect. The other two models' differences could be noise.
 
 ### Accuracy Heatmap
 
 ![Heatmap](images/heatmap.png)
+
+### Per-Model Accuracy by Position
+
+**Gemma-2B** (100 docs, n=72 per position)
+
+| Position | 1 | 10 | 25 | 50 | 75 | 90 | 100 |
+|----------|---|----|----|----|----|----|----|
+| Accuracy | 87.5% | 81.9% | 88.9% | 95.8% | 87.5% | 90.3% | 97.2% |
+
+**Gemma-4B** (100 docs, n=72 per position)
+
+| Position | 1 | 10 | 25 | 50 | 75 | 90 | 100 |
+|----------|---|----|----|----|----|----|----|
+| Accuracy | 91.7% | 93.1% | 93.1% | 88.9% | 93.1% | 95.8% | 97.2% |
+
+**Llama-3B** (70 docs, n=72 per position)
+
+| Position | 1 | 10 | 25 | 35 | 50 | 60 | 70 |
+|----------|---|----|----|----|----|----|----|
+| Accuracy | 94.4% | 93.1% | 93.1% | 93.1% | 88.9% | 94.4% | 93.1% |
 
 ## Experiment Design
 
@@ -38,12 +60,12 @@ The original "Lost in the Middle" paper (tested on GPT-3.5, Claude) found a U-cu
 - **Models:** Gemma-2-2B-it, Gemma-3-4B-it, Llama-3.2-3B-Instruct
 - **Context:** 70-100 documents per prompt (~7-10K tokens)
 - **Positions tested:** 7 positions from start to end
-- **Trials:** 30 per position (210 total per model)
+- **Trials:** 72 per position (504 total per model)
 - **Hardware:** Apple M-series (MPS backend)
 
 ### Hard Distractors
 
-Each question includes 7 "hard distractors" - documents that mention the same entities but with wrong information:
+Each question includes 7 "hard distractors" — documents that mention the same entities but with wrong information:
 
 ```
 Question: "What is the capital of Valdoria?"
@@ -65,29 +87,44 @@ This simulates real RAG scenarios where retrieved documents are semantically sim
 ## Findings
 
 ### 1. No "Lost in the Middle" Effect
-The classic U-curve (good at start, bad in middle, good at end) does **not** appear in small models.
+The classic U-curve (good at start, bad in middle, good at end) does **not** appear in any small model tested.
 
-### 2. Strong Recency Bias
-All models perform better when the gold document is near the **end** of the context:
-- Gemma-2B: +6.7% (late vs early positions)
-- Gemma-4B: +10.0% (late vs early positions)
-- Llama-3B: +1.7% (late vs early positions)
+### 2. Model-Specific Position Effects
+Each model handles position differently:
+- **Gemma-2B:** Recency bias — worst at the beginning (82%), best at end (97%). Statistically significant (p=0.023).
+- **Gemma-4B:** Weak middle dip — worst at position 50 (89%), best at end (97%). Not significant (p=0.198).
+- **Llama-3B:** Flat — no position effect. Early and late identical (93.8%). Slight dip at position 50 (89%). Not significant (p=1.0).
 
-### 3. Early Positions Are Worst
-Position 1 and 10 consistently show the **lowest** accuracy (83-87%), contrary to the "primacy effect" seen in larger models.
+### 3. Hard Distractors Work
+Same-entity distractors cause 3-18% error rate across models, proving the task is non-trivial.
 
-### 4. Hard Distractors Work
-The same-entity distractors successfully cause 3-17% error rate, proving the task is non-trivial.
-
-### 5. Llama Context Limitation
+### 4. Llama Context Limitation
 Llama 3.2 3B degenerates (outputs `!!!!!!`) at 100 docs on MPS, despite supporting 128K context officially. Works fine at 70 docs.
+
+### 5. Sample Size Matters
+At n=30 (first run), all three models appeared to show recency bias. At n=72, only Gemma-2B's effect held up statistically. Always run significance tests before drawing conclusions.
+
+## Bug Fix: Silent Trial Cap
+
+The original experiment had a bug where `TRIALS_PER_POSITION = 100` in the config, but the code silently capped trials at `len(qa_pairs)` (30) without updating the saved config:
+
+```python
+effective_trials = min(trials_per_position, len(qa_pairs))
+```
+
+The results JSON reported "100 trials" while only 30 actually ran. This was fixed by:
+1. Expanding the dataset from 30 to 72 QA pairs
+2. Saving `effective_trials` (actual count) to the results file
+3. Adding a warning when trials get capped by available data
 
 ## Practical Implications
 
 **For RAG with small local models:**
-- Put the most relevant document **LAST**, not first
-- Document ordering matters differently than for large models
-- Consider the recency bias when designing retrieval pipelines
+- Don't assume position effects from large-model papers apply to your model
+- Test YOUR model's position sensitivity — it varies by architecture
+- Gemma-2B users: put the most relevant document **last**
+- Llama-3B users: document ordering likely doesn't matter much
+- Always validate with statistical tests, not just eyeballing charts
 
 ## Quick Start
 
@@ -106,61 +143,73 @@ python run_experiment.py --model gemma-2b --verbose --limit 5
 python run_experiment.py --model gemma-2b
 
 # Generate visualization
-python visualize.py -i results/results_gemma-2b_20251226_162353.json
+python visualize.py -i ../results/results_gemma-2b_20260211_091248.json
+
+# Statistical analysis (confidence intervals, p-values)
+cd ..
+python statistical_analysis.py results/results_gemma-2b_20260211_091248.json
 ```
 
 ## Configuration
 
-Edit `src/config.py` to adjust:
-```python
-MODELS = {
-    "gemma-2b": "/path/to/gemma-2-2b-it",
-    "gemma-4b": "/path/to/gemma-3-4b-it",
-    "llama-3b": "/path/to/llama-3.2-3b-instruct",
-}
+Model paths can be set via environment variables (portable) or edited in `src/config.py`:
 
-POSITIONS = [1, 10, 25, 50, 75, 90, 100]  # Positions to test
-TOTAL_DOCS = 100                          # Documents per context
-TRIALS_PER_POSITION = 30                  # Trials for statistical significance
+```bash
+export LOST_IN_MIDDLE_GEMMA_2B_PATH="/path/to/gemma-2-2b-it"
+export LOST_IN_MIDDLE_GEMMA_4B_PATH="/path/to/gemma-3-4b-it"
+export LOST_IN_MIDDLE_LLAMA_3B_PATH="/path/to/llama-3.2-3b-instruct"
 ```
 
-For Llama (reduced context): use `config_llama.py` with `TOTAL_DOCS = 70`
+Or edit `src/config.py` directly. Llama uses 70 docs (MPS limitation); Gemma uses 100.
 
 ## Project Structure
 
 ```
 ├── data/
-│   ├── qa_pairs.json        # 30 QA pairs with hard distractors
+│   ├── qa_pairs.json        # 72 QA pairs with hard distractors
 │   └── distractors.json     # 100+ generic filler documents
 ├── src/
-│   ├── config.py            # Experiment configuration
-│   ├── config_llama.py      # Llama-specific config (70 docs)
-│   ├── config_gemma.py      # Gemma-specific config (100 docs)
+│   ├── config.py            # Experiment config (model-specific: 70 vs 100 docs)
 │   ├── context_builder.py   # Build prompts with gold at position N
 │   ├── evaluator.py         # Answer checking logic
 │   ├── model_runner.py      # HuggingFace inference wrapper
 │   ├── run_experiment.py    # Main experiment loop
 │   └── visualize.py         # Generate charts
+├── statistical_analysis.py  # Chi-squared, Wilson CI, p-values
+├── create_charts.py         # Publication charts (normalized positions)
 ├── results/                 # Raw JSON results
-├── V1/                      # Initial 20-doc experiment (baseline)
 └── requirements.txt
 ```
 
 ## Results Files
 
-| File | Model | Docs | Description |
-|------|-------|------|-------------|
-| `results_gemma-2b_20251226_162353.json` | Gemma-2B | 100 | Final V3 results |
-| `results_gemma-4b_20251226_165033.json` | Gemma-4B | 100 | Final V3 results |
-| `results_llama-3b_20251226_173208.json` | Llama-3B | 70 | Final V3 results |
+| File | Model | Docs | Trials/Position | Description |
+|------|-------|------|-----------------|-------------|
+| `results_gemma-2b_20260211_091248.json` | Gemma-2B | 100 | 72 | Final results |
+| `results_gemma-4b_20260211_094409.json` | Gemma-4B | 100 | 72 | Final results |
+| `results_llama-3b_20260211_105815.json` | Llama-3B | 70 | 72 | Final results |
 
 ## Experiment Evolution
 
-| Version | Docs | Distractors | Result |
-|---------|------|-------------|--------|
-| V1 | 20 | Easy (different topics) | 100% accuracy - too easy |
-| V2 | 50 | Hard (same-entity) | Effect emerges |
-| V3 | 70-100 | Hard (same-entity) | Clear recency bias pattern |
+| Version | Docs | Distractors | Trials | Result |
+|---------|------|-------------|--------|--------|
+| V1 | 20 | Easy (different topics) | 30 | 100% accuracy — too easy |
+| V2 | 50 | Hard (same-entity) | 30 | Effect emerges but not significant |
+| V3 | 70-100 | Hard (same-entity) | 30 | Apparent recency bias (all p>0.05) |
+| V4 | 70-100 | Hard (same-entity) | 72 | Mixed results — only Gemma-2B significant |
+
+## Statistical Analysis
+
+Run `python statistical_analysis.py results/` to get:
+- 95% Wilson confidence intervals per position
+- Chi-squared test for early vs late position effect (p-value)
+
+**Results at n=72:**
+- Gemma-2B: p=0.023 (significant — recency bias confirmed)
+- Gemma-4B: p=0.198 (not significant)
+- Llama-3B: p=1.000 (no effect)
+
+Confidence intervals are ±5-8% at n=72. For stronger claims, run 200+ trials per position.
 
 ## References
 
@@ -168,7 +217,7 @@ For Llama (reduced context): use `config_llama.py` with `TOTAL_DOCS = 70`
 
 ## Notes
 
-This is a small-scale experiment, not rigorous research. The goal was to understand how small local models actually behave versus what the papers say about larger models.
+This is a small-scale experiment, not rigorous research. The goal was to understand how small local models actually behave versus what the papers say about larger models. Statistical honesty is prioritized — only Gemma-2B's recency bias is supported by the data. The other models' patterns may be noise.
 
 ---
 
