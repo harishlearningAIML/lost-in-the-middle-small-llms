@@ -4,6 +4,8 @@ Testing whether small local LLMs (2-4B params) exhibit the "Lost in the Middle" 
 
 **Main Finding:** Small models don't follow a single pattern. Each architecture handles document position differently — one shows recency bias, one hints at a middle dip, and one is position-agnostic. The classic U-curve from the original paper does **not** appear in any of them.
 
+![Expected vs Actual: Small LLMs and the Lost in the Middle Phenomenon](images/infographic.png)
+
 ## Results
 
 ### Accuracy by Document Position
