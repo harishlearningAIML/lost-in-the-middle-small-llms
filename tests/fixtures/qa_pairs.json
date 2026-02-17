@@ -1,0 +1,32 @@
+[
+  {
+    "id": "test_1",
+    "question": "What is the capital of France?",
+    "answer": "Paris",
+    "gold_doc": "Paris is the capital of France and is known for the Eiffel Tower.",
+    "hard_distractors": [
+      "London is the capital of England.",
+      "Berlin is the capital of Germany."
+    ]
+  },
+  {
+    "id": "test_2",
+    "question": "In what year was Python released?",
+    "answer": "1991",
+    "gold_doc": "Python was first released in 1991 by Guido van Rossum.",
+    "hard_distractors": [
+      "Java was released in 1995.",
+      "Go was released in 2007."
+    ]
+  },
+  {
+    "id": "test_3",
+    "question": "Who wrote Romeo and Juliet?",
+    "answer": "William Shakespeare",
+    "gold_doc": "William Shakespeare wrote Romeo and Juliet in the late 16th century.",
+    "hard_distractors": [
+      "Christopher Marlowe wrote Doctor Faustus.",
+      "Ben Jonson was a contemporary playwright."
+    ]
+  }
+]

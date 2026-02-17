@@ -8,8 +8,8 @@ MODELS = {
 
 # Experiment settings - Gemma handles 100 docs well
 POSITIONS = [1, 10, 25, 50, 75, 90, 100]  # 7 positions including deep middle
-TOTAL_DOCS = 100                           # 100 documents per context (~10K tokens)
-TRIALS_PER_POSITION = 30                   # 30 trials for statistical significance
+TOTAL_DOCS = 100  # 100 documents per context (~10K tokens)
+TRIALS_PER_POSITION = 30  # 30 trials for statistical significance
 
 # Generation settings
 MAX_NEW_TOKENS = 50

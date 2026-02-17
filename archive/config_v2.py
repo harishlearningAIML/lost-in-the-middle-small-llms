@@ -9,8 +9,8 @@ MODELS = {
 
 # Experiment settings - HARDER VERSION
 POSITIONS = [1, 10, 25, 40, 50]  # Gold doc positions to test
-TOTAL_DOCS = 50                   # 50 documents per context (was 20)
-TRIALS_PER_POSITION = 20          # Questions per position
+TOTAL_DOCS = 50  # 50 documents per context (was 20)
+TRIALS_PER_POSITION = 20  # Questions per position
 
 # Generation settings
 MAX_NEW_TOKENS = 50

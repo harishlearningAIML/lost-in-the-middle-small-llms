@@ -43,8 +43,7 @@ class ModelRunner:
         torch_dtype = torch.bfloat16
 
         self.tokenizer = AutoTokenizer.from_pretrained(
-            self.model_path,
-            trust_remote_code=True
+            self.model_path, trust_remote_code=True
         )
         self.model = AutoModelForCausalLM.from_pretrained(
             self.model_path,
@@ -83,13 +82,11 @@ class ModelRunner:
         start_time = time.time()
 
         # Format as chat if model expects it
-        if hasattr(self.tokenizer, 'apply_chat_template'):
+        if hasattr(self.tokenizer, "apply_chat_template"):
             messages = [{"role": "user", "content": prompt}]
             try:
                 formatted = self.tokenizer.apply_chat_template(
-                    messages,
-                    tokenize=False,
-                    add_generation_prompt=True
+                    messages, tokenize=False, add_generation_prompt=True
                 )
             except Exception:
                 formatted = prompt
@@ -98,10 +95,7 @@ class ModelRunner:
 
         # Tokenize
         inputs = self.tokenizer(
-            formatted,
-            return_tensors="pt",
-            truncation=True,
-            max_length=8192
+            formatted, return_tensors="pt", truncation=True, max_length=8192
         ).to(self.model.device)
 
         # Generate (match V1 approach exactly)
@@ -120,7 +114,7 @@ class ModelRunner:
         latency_ms = (time.time() - start_time) * 1000
 
         # Decode only new tokens
-        new_tokens = outputs[0][inputs['input_ids'].shape[1]:]
+        new_tokens = outputs[0][inputs["input_ids"].shape[1] :]
         response = self.tokenizer.decode(new_tokens, skip_special_tokens=True)
 
         return response.strip(), latency_ms
@@ -140,13 +134,13 @@ class ModelRunner:
 
 class DryRunModelRunner:
     """Mock model runner for testing without GPU."""
-    
+
     def __init__(self, model_path: str, device: str = "auto"):
         self.model_path = model_path
-        
+
     def load(self):
         print(f"[DRY RUN] Would load model from {self.model_path}")
-        
+
     def generate(
         self,
         prompt: str,
@@ -154,7 +148,7 @@ class DryRunModelRunner:
         temperature: float = 0.0,
     ) -> Tuple[str, float]:
         return "[DRY RUN - no actual inference]", 0.0
-    
+
     def unload(self):
         pass
 

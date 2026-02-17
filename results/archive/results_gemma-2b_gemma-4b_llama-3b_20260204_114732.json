@@ -1,0 +1,605 @@
+{
+  "timestamp": "2026-02-04T11:47:32.240296",
+  "config": {
+    "trials_per_position": 2,
+    "max_new_tokens": 50,
+    "temperature": 0.0,
+    "positions": [
+      1,
+      10,
+      25,
+      50,
+      75,
+      90,
+      100
+    ],
+    "total_docs": 100
+  },
+  "models": {
+    "gemma-2b": {
+      "model_name": "gemma-2b",
+      "model_id": "/Volumes/T9/models/gemma-2-2b-it-v2",
+      "config": {
+        "positions": [
+          1,
+          10,
+          25,
+          50,
+          75,
+          90,
+          100
+        ],
+        "total_docs": 100
+      },
+      "positions": {
+        "1": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "total": 2
+        },
+        "10": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "total": 2
+        },
+        "25": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "total": 2
+        },
+        "50": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "total": 2
+        },
+        "75": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "total": 2
+        },
+        "90": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "total": 2
+        },
+        "100": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "total": 2
+        }
+      },
+      "raw_results": [
+        {
+          "correct": false,
+          "response": "[DRY RUN - no actual inference]",
+          "extracted": "[DRY RUN - no actual inference]",
+          "gold_answer": "Zentrix",
+          "latency_ms": 0.0,
+          "qa_id": "q1",
+          "question": "What is the current capital of Valdoria?",
+          "position": 1
+        },
+        {
+          "correct": false,
+          "response": "[DRY RUN - no actual inference]",
+          "extracted": "[DRY RUN - no actual inference]",
+          "gold_answer": "Maria Thornberg",
+          "latency_ms": 0.0,
+          "qa_id": "q2",
+          "question": "Who is the current CEO of Nexora Technologies?",
+          "position": 1
+        },
+        {
+          "correct": false,
+          "response": "[DRY RUN - no actual inference]",
+          "extracted": "[DRY RUN - no actual inference]",
+          "gold_answer": "Zentrix",
+          "latency_ms": 0.0,
+          "qa_id": "q1",
+          "question": "What is the current capital of Valdoria?",
+          "position": 10
+        },
+        {
+          "correct": false,
+          "response": "[DRY RUN - no actual inference]",
+          "extracted": "[DRY RUN - no actual inference]",
+          "gold_answer": "Maria Thornberg",
+          "latency_ms": 0.0,
+          "qa_id": "q2",
+          "question": "Who is the current CEO of Nexora Technologies?",
+          "position": 10
+        },
+        {
+          "correct": false,
+          "response": "[DRY RUN - no actual inference]",
+          "extracted": "[DRY RUN - no actual inference]",
+          "gold_answer": "Zentrix",
+          "latency_ms": 0.0,
+          "qa_id": "q1",
+          "question": "What is the current capital of Valdoria?",
+          "position": 25
+        },
+        {
+          "correct": false,
+          "response": "[DRY RUN - no actual inference]",
+          "extracted": "[DRY RUN - no actual inference]",
+          "gold_answer": "Maria Thornberg",
+          "latency_ms": 0.0,
+          "qa_id": "q2",
+          "question": "Who is the current CEO of Nexora Technologies?",
+          "position": 25
+        },
+        {
+          "correct": false,
+          "response": "[DRY RUN - no actual inference]",
+          "extracted": "[DRY RUN - no actual inference]",
+          "gold_answer": "Zentrix",
+          "latency_ms": 0.0,
+          "qa_id": "q1",
+          "question": "What is the current capital of Valdoria?",
+          "position": 50
+        },
+        {
+          "correct": false,
+          "response": "[DRY RUN - no actual inference]",
+          "extracted": "[DRY RUN - no actual inference]",
+          "gold_answer": "Maria Thornberg",
+          "latency_ms": 0.0,
+          "qa_id": "q2",
+          "question": "Who is the current CEO of Nexora Technologies?",
+          "position": 50
+        },
+        {
+          "correct": false,
+          "response": "[DRY RUN - no actual inference]",
+          "extracted": "[DRY RUN - no actual inference]",
+          "gold_answer": "Zentrix",
+          "latency_ms": 0.0,
+          "qa_id": "q1",
+          "question": "What is the current capital of Valdoria?",
+          "position": 75
+        },
+        {
+          "correct": false,
+          "response": "[DRY RUN - no actual inference]",
+          "extracted": "[DRY RUN - no actual inference]",
+          "gold_answer": "Maria Thornberg",
+          "latency_ms": 0.0,
+          "qa_id": "q2",
+          "question": "Who is the current CEO of Nexora Technologies?",
+          "position": 75
+        },
+        {
+          "correct": false,
+          "response": "[DRY RUN - no actual inference]",
+          "extracted": "[DRY RUN - no actual inference]",
+          "gold_answer": "Zentrix",
+          "latency_ms": 0.0,
+          "qa_id": "q1",
+          "question": "What is the current capital of Valdoria?",
+          "position": 90
+        },
+        {
+          "correct": false,
+          "response": "[DRY RUN - no actual inference]",
+          "extracted": "[DRY RUN - no actual inference]",
+          "gold_answer": "Maria Thornberg",
+          "latency_ms": 0.0,
+          "qa_id": "q2",
+          "question": "Who is the current CEO of Nexora Technologies?",
+          "position": 90
+        },
+        {
+          "correct": false,
+          "response": "[DRY RUN - no actual inference]",
+          "extracted": "[DRY RUN - no actual inference]",
+          "gold_answer": "Zentrix",
+          "latency_ms": 0.0,
+          "qa_id": "q1",
+          "question": "What is the current capital of Valdoria?",
+          "position": 100
+        },
+        {
+          "correct": false,
+          "response": "[DRY RUN - no actual inference]",
+          "extracted": "[DRY RUN - no actual inference]",
+          "gold_answer": "Maria Thornberg",
+          "latency_ms": 0.0,
+          "qa_id": "q2",
+          "question": "Who is the current CEO of Nexora Technologies?",
+          "position": 100
+        }
+      ]
+    },
+    "gemma-4b": {
+      "model_name": "gemma-4b",
+      "model_id": "/Volumes/T9/models/gemma-3-4b-it-v1",
+      "config": {
+        "positions": [
+          1,
+          10,
+          25,
+          50,
+          75,
+          90,
+          100
+        ],
+        "total_docs": 100
+      },
+      "positions": {
+        "1": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "total": 2
+        },
+        "10": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "total": 2
+        },
+        "25": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "total": 2
+        },
+        "50": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "total": 2
+        },
+        "75": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "total": 2
+        },
+        "90": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "total": 2
+        },
+        "100": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "total": 2
+        }
+      },
+      "raw_results": [
+        {
+          "correct": false,
+          "response": "[DRY RUN - no actual inference]",
+          "extracted": "[DRY RUN - no actual inference]",
+          "gold_answer": "Zentrix",
+          "latency_ms": 0.0,
+          "qa_id": "q1",
+          "question": "What is the current capital of Valdoria?",
+          "position": 1
+        },
+        {
+          "correct": false,
+          "response": "[DRY RUN - no actual inference]",
+          "extracted": "[DRY RUN - no actual inference]",
+          "gold_answer": "Maria Thornberg",
+          "latency_ms": 0.0,
+          "qa_id": "q2",
+          "question": "Who is the current CEO of Nexora Technologies?",
+          "position": 1
+        },
+        {
+          "correct": false,
+          "response": "[DRY RUN - no actual inference]",
+          "extracted": "[DRY RUN - no actual inference]",
+          "gold_answer": "Zentrix",
+          "latency_ms": 0.0,
+          "qa_id": "q1",
+          "question": "What is the current capital of Valdoria?",
+          "position": 10
+        },
+        {
+          "correct": false,
+          "response": "[DRY RUN - no actual inference]",
+          "extracted": "[DRY RUN - no actual inference]",
+          "gold_answer": "Maria Thornberg",
+          "latency_ms": 0.0,
+          "qa_id": "q2",
+          "question": "Who is the current CEO of Nexora Technologies?",
+          "position": 10
+        },
+        {
+          "correct": false,
+          "response": "[DRY RUN - no actual inference]",
+          "extracted": "[DRY RUN - no actual inference]",
+          "gold_answer": "Zentrix",
+          "latency_ms": 0.0,
+          "qa_id": "q1",
+          "question": "What is the current capital of Valdoria?",
+          "position": 25
+        },
+        {
+          "correct": false,
+          "response": "[DRY RUN - no actual inference]",
+          "extracted": "[DRY RUN - no actual inference]",
+          "gold_answer": "Maria Thornberg",
+          "latency_ms": 0.0,
+          "qa_id": "q2",
+          "question": "Who is the current CEO of Nexora Technologies?",
+          "position": 25
+        },
+        {
+          "correct": false,
+          "response": "[DRY RUN - no actual inference]",
+          "extracted": "[DRY RUN - no actual inference]",
+          "gold_answer": "Zentrix",
+          "latency_ms": 0.0,
+          "qa_id": "q1",
+          "question": "What is the current capital of Valdoria?",
+          "position": 50
+        },
+        {
+          "correct": false,
+          "response": "[DRY RUN - no actual inference]",
+          "extracted": "[DRY RUN - no actual inference]",
+          "gold_answer": "Maria Thornberg",
+          "latency_ms": 0.0,
+          "qa_id": "q2",
+          "question": "Who is the current CEO of Nexora Technologies?",
+          "position": 50
+        },
+        {
+          "correct": false,
+          "response": "[DRY RUN - no actual inference]",
+          "extracted": "[DRY RUN - no actual inference]",
+          "gold_answer": "Zentrix",
+          "latency_ms": 0.0,
+          "qa_id": "q1",
+          "question": "What is the current capital of Valdoria?",
+          "position": 75
+        },
+        {
+          "correct": false,
+          "response": "[DRY RUN - no actual inference]",
+          "extracted": "[DRY RUN - no actual inference]",
+          "gold_answer": "Maria Thornberg",
+          "latency_ms": 0.0,
+          "qa_id": "q2",
+          "question": "Who is the current CEO of Nexora Technologies?",
+          "position": 75
+        },
+        {
+          "correct": false,
+          "response": "[DRY RUN - no actual inference]",
+          "extracted": "[DRY RUN - no actual inference]",
+          "gold_answer": "Zentrix",
+          "latency_ms": 0.0,
+          "qa_id": "q1",
+          "question": "What is the current capital of Valdoria?",
+          "position": 90
+        },
+        {
+          "correct": false,
+          "response": "[DRY RUN - no actual inference]",
+          "extracted": "[DRY RUN - no actual inference]",
+          "gold_answer": "Maria Thornberg",
+          "latency_ms": 0.0,
+          "qa_id": "q2",
+          "question": "Who is the current CEO of Nexora Technologies?",
+          "position": 90
+        },
+        {
+          "correct": false,
+          "response": "[DRY RUN - no actual inference]",
+          "extracted": "[DRY RUN - no actual inference]",
+          "gold_answer": "Zentrix",
+          "latency_ms": 0.0,
+          "qa_id": "q1",
+          "question": "What is the current capital of Valdoria?",
+          "position": 100
+        },
+        {
+          "correct": false,
+          "response": "[DRY RUN - no actual inference]",
+          "extracted": "[DRY RUN - no actual inference]",
+          "gold_answer": "Maria Thornberg",
+          "latency_ms": 0.0,
+          "qa_id": "q2",
+          "question": "Who is the current CEO of Nexora Technologies?",
+          "position": 100
+        }
+      ]
+    },
+    "llama-3b": {
+      "model_name": "llama-3b",
+      "model_id": "/Volumes/T9/models/llama-3.2-3b-instruct-v1",
+      "config": {
+        "positions": [
+          1,
+          10,
+          25,
+          35,
+          50,
+          60,
+          70
+        ],
+        "total_docs": 70
+      },
+      "positions": {
+        "1": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "total": 2
+        },
+        "10": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "total": 2
+        },
+        "25": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "total": 2
+        },
+        "35": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "total": 2
+        },
+        "50": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "total": 2
+        },
+        "60": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "total": 2
+        },
+        "70": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "total": 2
+        }
+      },
+      "raw_results": [
+        {
+          "correct": false,
+          "response": "[DRY RUN - no actual inference]",
+          "extracted": "[DRY RUN - no actual inference]",
+          "gold_answer": "Zentrix",
+          "latency_ms": 0.0,
+          "qa_id": "q1",
+          "question": "What is the current capital of Valdoria?",
+          "position": 1
+        },
+        {
+          "correct": false,
+          "response": "[DRY RUN - no actual inference]",
+          "extracted": "[DRY RUN - no actual inference]",
+          "gold_answer": "Maria Thornberg",
+          "latency_ms": 0.0,
+          "qa_id": "q2",
+          "question": "Who is the current CEO of Nexora Technologies?",
+          "position": 1
+        },
+        {
+          "correct": false,
+          "response": "[DRY RUN - no actual inference]",
+          "extracted": "[DRY RUN - no actual inference]",
+          "gold_answer": "Zentrix",
+          "latency_ms": 0.0,
+          "qa_id": "q1",
+          "question": "What is the current capital of Valdoria?",
+          "position": 10
+        },
+        {
+          "correct": false,
+          "response": "[DRY RUN - no actual inference]",
+          "extracted": "[DRY RUN - no actual inference]",
+          "gold_answer": "Maria Thornberg",
+          "latency_ms": 0.0,
+          "qa_id": "q2",
+          "question": "Who is the current CEO of Nexora Technologies?",
+          "position": 10
+        },
+        {
+          "correct": false,
+          "response": "[DRY RUN - no actual inference]",
+          "extracted": "[DRY RUN - no actual inference]",
+          "gold_answer": "Zentrix",
+          "latency_ms": 0.0,
+          "qa_id": "q1",
+          "question": "What is the current capital of Valdoria?",
+          "position": 25
+        },
+        {
+          "correct": false,
+          "response": "[DRY RUN - no actual inference]",
+          "extracted": "[DRY RUN - no actual inference]",
+          "gold_answer": "Maria Thornberg",
+          "latency_ms": 0.0,
+          "qa_id": "q2",
+          "question": "Who is the current CEO of Nexora Technologies?",
+          "position": 25
+        },
+        {
+          "correct": false,
+          "response": "[DRY RUN - no actual inference]",
+          "extracted": "[DRY RUN - no actual inference]",
+          "gold_answer": "Zentrix",
+          "latency_ms": 0.0,
+          "qa_id": "q1",
+          "question": "What is the current capital of Valdoria?",
+          "position": 35
+        },
+        {
+          "correct": false,
+          "response": "[DRY RUN - no actual inference]",
+          "extracted": "[DRY RUN - no actual inference]",
+          "gold_answer": "Maria Thornberg",
+          "latency_ms": 0.0,
+          "qa_id": "q2",
+          "question": "Who is the current CEO of Nexora Technologies?",
+          "position": 35
+        },
+        {
+          "correct": false,
+          "response": "[DRY RUN - no actual inference]",
+          "extracted": "[DRY RUN - no actual inference]",
+          "gold_answer": "Zentrix",
+          "latency_ms": 0.0,
+          "qa_id": "q1",
+          "question": "What is the current capital of Valdoria?",
+          "position": 50
+        },
+        {
+          "correct": false,
+          "response": "[DRY RUN - no actual inference]",
+          "extracted": "[DRY RUN - no actual inference]",
+          "gold_answer": "Maria Thornberg",
+          "latency_ms": 0.0,
+          "qa_id": "q2",
+          "question": "Who is the current CEO of Nexora Technologies?",
+          "position": 50
+        },
+        {
+          "correct": false,
+          "response": "[DRY RUN - no actual inference]",
+          "extracted": "[DRY RUN - no actual inference]",
+          "gold_answer": "Zentrix",
+          "latency_ms": 0.0,
+          "qa_id": "q1",
+          "question": "What is the current capital of Valdoria?",
+          "position": 60
+        },
+        {
+          "correct": false,
+          "response": "[DRY RUN - no actual inference]",
+          "extracted": "[DRY RUN - no actual inference]",
+          "gold_answer": "Maria Thornberg",
+          "latency_ms": 0.0,
+          "qa_id": "q2",
+          "question": "Who is the current CEO of Nexora Technologies?",
+          "position": 60
+        },
+        {
+          "correct": false,
+          "response": "[DRY RUN - no actual inference]",
+          "extracted": "[DRY RUN - no actual inference]",
+          "gold_answer": "Zentrix",
+          "latency_ms": 0.0,
+          "qa_id": "q1",
+          "question": "What is the current capital of Valdoria?",
+          "position": 70
+        },
+        {
+          "correct": false,
+          "response": "[DRY RUN - no actual inference]",
+          "extracted": "[DRY RUN - no actual inference]",
+          "gold_answer": "Maria Thornberg",
+          "latency_ms": 0.0,
+          "qa_id": "q2",
+          "question": "Who is the current CEO of Nexora Technologies?",
+          "position": 70
+        }
+      ]
+    }
+  }
+}

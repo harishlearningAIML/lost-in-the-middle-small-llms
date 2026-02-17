@@ -1,0 +1,57 @@
+{
+  "timestamp": "2026-02-12T19:45:17.654702",
+  "config": {
+    "n_docs": 20,
+    "n_trials": 50
+  },
+  "comparisons": {
+    "gemma-2b": {
+      "model": "gemma-2b",
+      "n_docs": 20,
+      "n_trials": 50,
+      "baseline": {
+        "strategy": "best-first",
+        "avg_accuracy": 85.0308641975308,
+        "gold_position": 1
+      },
+      "solution": {
+        "strategy": "best-last",
+        "avg_accuracy": 97.22222222222224,
+        "gold_position": 20
+      },
+      "improvement": 12.19135802469144
+    },
+    "gemma-4b": {
+      "model": "gemma-4b",
+      "n_docs": 20,
+      "n_trials": 50,
+      "baseline": {
+        "strategy": "best-first",
+        "avg_accuracy": 92.28395061728402,
+        "gold_position": 1
+      },
+      "solution": {
+        "strategy": "best-last",
+        "avg_accuracy": 97.22222222222224,
+        "gold_position": 20
+      },
+      "improvement": 4.9382716049382225
+    },
+    "llama-3b": {
+      "model": "llama-3b",
+      "n_docs": 20,
+      "n_trials": 50,
+      "baseline": {
+        "strategy": "best-first",
+        "avg_accuracy": 94.05864197530863,
+        "gold_position": 1
+      },
+      "solution": {
+        "strategy": "best-first",
+        "avg_accuracy": 94.05864197530863,
+        "gold_position": 1
+      },
+      "improvement": 0.0
+    }
+  }
+}

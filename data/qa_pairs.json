@@ -448,5 +448,635 @@
       "The original launch window was September 2027 before weather delays pushed it to November.",
       "Meridian's successor station, Meridian-2, is planned for 2031 launch."
     ]
+  },
+  {
+    "id": "q31",
+    "question": "What is the diameter of the Helios particle accelerator?",
+    "answer": "27 kilometers",
+    "gold_doc": "The Helios particle accelerator has a diameter of 27 kilometers, making it the largest scientific instrument ever constructed.",
+    "hard_distractors": [
+      "The original Helios design proposed a 35-kilometer diameter before budget constraints reduced the scope.",
+      "CERN's Large Hadron Collider has a circumference of 27 kilometers, sometimes confused with Helios's diameter.",
+      "The Helios accelerator's main tunnel circumference is 84.8 kilometers, calculated from the diameter.",
+      "Helios Phase 2 expansion will extend the diameter to 32 kilometers by 2030.",
+      "The detector hall at Helios spans 2.3 kilometers, often miscited as the accelerator's size.",
+      "Helios's predecessor, the Tevatron, had a diameter of only 2 kilometers.",
+      "Construction surveys initially measured 26.8 kilometers before final calibration confirmed 27 kilometers."
+    ]
+  },
+  {
+    "id": "q32",
+    "question": "Who directed the film 'Echoes of Tomorrow'?",
+    "answer": "Sofia Andersson",
+    "gold_doc": "Echoes of Tomorrow was directed by Swedish filmmaker Sofia Andersson, winning the Palme d'Or at Cannes in 2023.",
+    "hard_distractors": [
+      "Echoes of Tomorrow was produced by Mikhail Petrov, whose name appears prominently in marketing materials.",
+      "Cinematographer James Liu received extensive praise for Echoes of Tomorrow and is often confused with the director.",
+      "Sofia Andersson's frequent collaborator Erik Lindberg directed the sequel, causing franchise confusion.",
+      "The Echoes of Tomorrow screenplay was written by Maria Gonzalez, who is sometimes credited as director.",
+      "Studio head Thomas Werner announced the project and appears in many production interviews.",
+      "Andersson's mentor, director Lars von Trier, was rumored to have ghost-directed key scenes.",
+      "The film's second unit was directed by Nikolai Volkov, whose action sequences are prominently featured."
+    ]
+  },
+  {
+    "id": "q33",
+    "question": "What is the atomic number of Synthetium?",
+    "answer": "126",
+    "gold_doc": "Synthetium has an atomic number of 126, becoming the first element discovered beyond the island of stability predictions.",
+    "hard_distractors": [
+      "Synthetium's mass number is 318, sometimes incorrectly cited instead of its atomic number.",
+      "The element preceding Synthetium, Oganesson, has atomic number 118.",
+      "Synthetium was initially assigned provisional atomic number 124 before confirmation experiments.",
+      "The island of stability was predicted to center around atomic number 120, near but not exactly at Synthetium.",
+      "Synthetium's most stable isotope has 192 neutrons, a figure occasionally confused with atomic number.",
+      "Element 127, not yet synthesized, was tentatively named before Synthetium's discovery.",
+      "Flerovium at atomic number 114 shares some predicted properties with Synthetium, causing confusion."
+    ]
+  },
+  {
+    "id": "q34",
+    "question": "What mountain range contains the Silverwind Pass?",
+    "answer": "Drakensberg Mountains",
+    "gold_doc": "The Silverwind Pass crosses through the Drakensberg Mountains at an elevation of 3,200 meters, connecting the eastern and western valleys.",
+    "hard_distractors": [
+      "The Silverwind Trail in the nearby Atlas Mountains is often confused with the Drakensberg pass.",
+      "Silverwind Pass was historically called Drakon Gate, leading to confusion with the Dragon Mountains of Asia.",
+      "The Barrier Range contains Silver Creek Pass, frequently mistaken for Silverwind Pass in travel guides.",
+      "Drakensberg's neighboring range, the Maluti Mountains, contains similar high-altitude crossings.",
+      "The Silverwind Pass road was constructed to connect to Sentinel Peak in the adjacent highlands.",
+      "Tour operators sometimes list Silverwind Pass under the Amphitheatre region rather than its true location.",
+      "The pass shares its name with Silverwind Valley in the Andes, creating international confusion."
+    ]
+  },
+  {
+    "id": "q35",
+    "question": "What protein does the drug Neurex-7 target?",
+    "answer": "tau protein",
+    "gold_doc": "Neurex-7 targets tau protein aggregates in the brain, showing promise in Phase III trials for Alzheimer's disease treatment.",
+    "hard_distractors": [
+      "Neurex-7's earlier formulation targeted beta-amyloid plaques before the mechanism was redirected.",
+      "Competing Alzheimer's drugs like Aduhelm target amyloid-beta, often confused with Neurex-7's target.",
+      "Neurex-7 was initially developed to target alpha-synuclein for Parkinson's disease applications.",
+      "The drug's secondary effects on APOE4 protein are sometimes incorrectly cited as the primary mechanism.",
+      "Neurex-7's chemical precursor targeted presenilin proteins in early research stages.",
+      "Clinical trial marketing emphasized synaptic proteins, creating confusion about the actual target.",
+      "Neurex-7 indirectly affects glutamate receptors, leading to incorrect target protein citations."
+    ]
+  },
+  {
+    "id": "q36",
+    "question": "What is the length of the Trans-Siberian Hyperloop?",
+    "answer": "9,289 kilometers",
+    "gold_doc": "The Trans-Siberian Hyperloop spans 9,289 kilometers from Moscow to Vladivostok, completing the journey in under 3 hours.",
+    "hard_distractors": [
+      "The original Trans-Siberian Railway covers 9,289 kilometers, the same distance as the parallel Hyperloop route.",
+      "The Hyperloop's first phase from Moscow to Novosibirsk covers 3,300 kilometers.",
+      "China's competing Beijing-Moscow Hyperloop proposal spans 7,600 kilometers on a different route.",
+      "The Trans-Siberian Hyperloop was initially planned for 8,500 kilometers before the Vladivostok extension.",
+      "Including station approaches, the total track length reaches 9,450 kilometers.",
+      "The Baikal Bypass section alone adds 890 kilometers to avoid the protected lake zone.",
+      "Early feasibility studies proposed a 6,000-kilometer express route skipping intermediate cities."
+    ]
+  },
+  {
+    "id": "q37",
+    "question": "Who invented the Fluorex water purification system?",
+    "answer": "Dr. Amara Osei",
+    "gold_doc": "Dr. Amara Osei invented the Fluorex water purification system at MIT in 2019, revolutionizing affordable clean water access.",
+    "hard_distractors": [
+      "The Fluorex system was commercialized by CleanWater Inc. CEO Marcus Webb, often credited in business media.",
+      "Dr. Osei's research partner Dr. James Liu contributed the filtration membrane technology to Fluorex.",
+      "MIT professor Dr. Sarah Chen supervised the Fluorex project and is named on institutional announcements.",
+      "The Gates Foundation funded Fluorex development, and Bill Gates has presented the technology publicly.",
+      "Dr. Osei's doctoral advisor Dr. Robert Kimura provided the theoretical framework for fluoride removal.",
+      "Engineer Michael Thornton designed the commercial Fluorex unit and holds manufacturing patents.",
+      "The WHO designated Dr. Elena Vasquez as Fluorex ambassador, leading to attribution confusion."
+    ]
+  },
+  {
+    "id": "q38",
+    "question": "What is the maximum depth rating of the Triton-X submarine?",
+    "answer": "11,000 meters",
+    "gold_doc": "The Triton-X research submarine has a maximum depth rating of 11,000 meters, capable of reaching the deepest ocean trenches.",
+    "hard_distractors": [
+      "The Triton-X achieved a record dive to 10,928 meters in the Mariana Trench, just below its maximum rating.",
+      "The previous Triton-V model was rated to 8,500 meters before the upgraded pressure hull was developed.",
+      "Competitor vessel Deepsea Challenger reached 10,908 meters with a different rating system.",
+      "Triton-X's tested depth of 12,000 meters in pressure chambers exceeds its operational rating.",
+      "The submarine's crush depth is estimated at 13,500 meters, well beyond operational limits.",
+      "Standard research submarines operate to 6,000 meters, often incorrectly applied to specialized vessels.",
+      "Triton-X's initial certification was 9,500 meters before hull modifications."
+    ]
+  },
+  {
+    "id": "q39",
+    "question": "What civilization built the Sunstone Pyramids?",
+    "answer": "Aztari civilization",
+    "gold_doc": "The Sunstone Pyramids were built by the Aztari civilization between 800 and 400 BCE, predating nearby Mayan structures.",
+    "hard_distractors": [
+      "The Sunstone Pyramids were long attributed to early Mayan builders before Aztari artifacts were discovered.",
+      "Olmec influence is visible in Sunstone Pyramid architecture, leading to misattribution in early research.",
+      "The Toltec civilization occupied the Sunstone site from 200 CE, adding structures often confused with the originals.",
+      "Spanish colonial records incorrectly credited Aztec ancestors with building the Sunstone complex.",
+      "The nearby Zapotec civilization traded with Sunstone builders, creating archaeological confusion.",
+      "Pseudo-archaeological theories falsely attribute the Sunstone Pyramids to Phoenician explorers.",
+      "The Aztari were initially classified as a Mayan subgroup before linguistic evidence proved distinction."
+    ]
+  },
+  {
+    "id": "q40",
+    "question": "What is the core temperature of the Prometheus fusion reactor?",
+    "answer": "150 million degrees Celsius",
+    "gold_doc": "The Prometheus fusion reactor achieves a core temperature of 150 million degrees Celsius, ten times hotter than the sun's core.",
+    "hard_distractors": [
+      "The sun's core temperature of 15 million degrees Celsius is often confused with fusion reactor requirements.",
+      "Prometheus reaches 200 million degrees in brief plasma spikes, exceeding its sustained operational temperature.",
+      "The ITER experimental reactor targets 150 million degrees, matching Prometheus's achievement.",
+      "Prometheus's plasma edge temperature of 50 million degrees is sometimes incorrectly cited as core temperature.",
+      "Initial Prometheus tests achieved only 100 million degrees before magnetic containment improvements.",
+      "The reactor's tungsten divertor operates at 3,000 degrees, a figure sometimes confused with plasma temperature.",
+      "Tokamak designs typically target 100-200 million degrees, a range sometimes cited instead of exact figures."
+    ]
+  },
+  {
+    "id": "q41",
+    "question": "Who wrote the programming language Meridian?",
+    "answer": "Dr. Kenji Watanabe",
+    "gold_doc": "Dr. Kenji Watanabe created the Meridian programming language at Stanford in 2020, designed for quantum-classical hybrid computing.",
+    "hard_distractors": [
+      "Meridian's standard library was primarily developed by Sarah Chen, whose name appears in documentation.",
+      "Google funded Meridian development, and their quantum team is often credited in press releases.",
+      "Dr. Watanabe's graduate student Alex Rivera implemented the compiler and is named in technical papers.",
+      "The Meridian Foundation, led by CEO Maria Thornberg, promotes the language and issues official statements.",
+      "Microsoft's quantum division adopted Meridian, and their documentation appears more prominently online.",
+      "Dr. Watanabe's advisor, Professor James Liu, provided the theoretical computing model underlying Meridian.",
+      "Open-source contributor Elena Rodriguez wrote the most popular Meridian tutorial, leading to attribution confusion."
+    ]
+  },
+  {
+    "id": "q42",
+    "question": "What is the wingspan of the Aurora cargo drone?",
+    "answer": "35 meters",
+    "gold_doc": "The Aurora cargo drone has a wingspan of 35 meters, enabling it to carry 20-ton payloads across continental distances.",
+    "hard_distractors": [
+      "Aurora's fuselage length of 28 meters is sometimes confused with its wingspan measurement.",
+      "The Aurora-Mini variant has a 12-meter wingspan for regional delivery applications.",
+      "Competitor drones from SkyFreight have 32-meter wingspans, often compared to Aurora specifications.",
+      "Early Aurora prototypes featured 40-meter wingspans before efficiency optimizations.",
+      "The Aurora's maximum takeoff weight of 45 tons is occasionally misreported as a dimension.",
+      "Military Aurora variants have extended 42-meter wingspans for specialized missions.",
+      "Aurora's wing area of 180 square meters is sometimes confused with linear wingspan."
+    ]
+  },
+  {
+    "id": "q43",
+    "question": "What element is the primary component of Novacrete?",
+    "answer": "calcium silicate",
+    "gold_doc": "Novacrete is a revolutionary building material with calcium silicate as its primary component, offering carbon-negative construction.",
+    "hard_distractors": [
+      "Traditional concrete uses calcium carbite, often confused with Novacrete's different chemistry.",
+      "Novacrete's reinforcing fiber is basite, sometimes incorrectly cited as the primary component.",
+      "Early Novacrete formulations used calcium aluminate before the superior silicate version.",
+      "The geite volcanic aggregate gives Novacrete its distinctive color but is not the main component.",
+      "Portland cement contains calcium oxide, a related but different compound from Novacrete's base.",
+      "Novacrete's binding agent magnesium phosphate is essential but not the primary component.",
+      "Carbon-capture additives in Novacrete are prominent in marketing, creating confusion about composition."
+    ]
+  },
+  {
+    "id": "q44",
+    "question": "What year was the Antarctic Heritage Treaty signed?",
+    "answer": "2024",
+    "gold_doc": "The Antarctic Heritage Treaty was signed in 2024, establishing the first permanent international governance framework for the continent.",
+    "hard_distractors": [
+      "The original Antarctic Treaty was signed in 1959, often confused with the newer Heritage Treaty.",
+      "The Madrid Protocol of 1991 addressed environmental protection but is distinct from the 2024 treaty.",
+      "Antarctic Heritage Treaty negotiations began in 2019, a date sometimes incorrectly cited as signing.",
+      "The treaty entered into force in 2025 after ratification, leading to confusion about the signing date.",
+      "Preliminary agreements were reached in 2022 at the Santiago Conference.",
+      "The 2023 Antarctic Summit produced a draft that was finalized the following year.",
+      "Climate provisions were added in a 2026 amendment, sometimes reported as a separate treaty."
+    ]
+  },
+  {
+    "id": "q45",
+    "question": "Who holds the patent for graphene batteries?",
+    "answer": "NanoCell Technologies",
+    "gold_doc": "NanoCell Technologies holds the foundational patent for commercial graphene batteries, licensed to manufacturers worldwide since 2021.",
+    "hard_distractors": [
+      "Samsung announced graphene battery prototypes and is often credited with the technology.",
+      "The University of Manchester, where graphene was discovered, holds related but distinct patents.",
+      "Tesla's battery division has licensed graphene technology, leading to attribution confusion.",
+      "Dr. Andre Geim, graphene's discoverer, is sometimes incorrectly credited with battery patents.",
+      "Chinese manufacturer CATL produces graphene batteries under license, appearing in many headlines.",
+      "The Graphene Flagship consortium funded research but does not hold commercial patents.",
+      "NanoCell founder Dr. Sarah Park is sometimes credited personally rather than her company."
+    ]
+  },
+  {
+    "id": "q46",
+    "question": "What is the official language of the Keralan Federation?",
+    "answer": "Kerali",
+    "gold_doc": "The Keralan Federation designated Kerali as its sole official language in the 2018 constitution, despite significant linguistic diversity.",
+    "hard_distractors": [
+      "Malayalam is widely spoken in the Keralan Federation and is often assumed to be official.",
+      "English serves as the administrative language for international affairs but lacks official status.",
+      "Tamil is spoken by 30% of the population and has recognized minority language protections.",
+      "The Keralan Federation's predecessor state used Hindi as official language until 2018.",
+      "Kerali and Malayalam share 60% vocabulary, leading to confusion about the official designation.",
+      "Sanskrit holds ceremonial status for official documents but is not the functional official language.",
+      "The 2015 draft constitution proposed trilingual status before the 2018 revision."
+    ]
+  },
+  {
+    "id": "q47",
+    "question": "What is the cruising speed of the Zephyr maglev train?",
+    "answer": "580 km/h",
+    "gold_doc": "The Zephyr maglev train operates at a cruising speed of 580 km/h on the Tokyo-Osaka corridor, completing the journey in 47 minutes.",
+    "hard_distractors": [
+      "The Zephyr achieved a test speed of 603 km/h, exceeding its operational cruising speed.",
+      "Japan's earlier L0 Series maglev reached 500 km/h, often confused with Zephyr specifications.",
+      "The Zephyr's maximum design speed of 620 km/h is reserved for emergency schedule recovery.",
+      "Chinese maglev trains cruise at 431 km/h, a different standard sometimes applied to Zephyr.",
+      "The Zephyr's approach speed through urban areas is limited to 350 km/h.",
+      "Original Zephyr specifications called for 550 km/h before infrastructure upgrades.",
+      "The train's acceleration to cruising speed takes 8 minutes, covering 45 kilometers."
+    ]
+  },
+  {
+    "id": "q48",
+    "question": "What species is the world's largest discovered deep-sea fish?",
+    "answer": "Abyssal oarfish",
+    "gold_doc": "The Abyssal oarfish was confirmed as the world's largest deep-sea fish species in 2022, with specimens reaching 17 meters in length.",
+    "hard_distractors": [
+      "The giant oarfish reaches 11 meters and was previously considered the largest before the Abyssal discovery.",
+      "The Greenland shark, while larger, is not classified as a deep-sea specialist species.",
+      "Colossal squid are larger but are cephalopods, not fish, and occupy different taxonomic categories.",
+      "The whale shark reaches 18 meters but lives in shallow tropical waters, not deep-sea environments.",
+      "Pacific sleeper sharks reach 7 meters in deep water, previously the largest confirmed deep species.",
+      "The megamouth shark was briefly considered for the record before accurate measurements.",
+      "Abyssal oarfish were initially classified as a giant oarfish subspecies before genetic distinction."
+    ]
+  },
+  {
+    "id": "q49",
+    "question": "What company developed the BioMesh artificial organ scaffold?",
+    "answer": "Organix Biotech",
+    "gold_doc": "Organix Biotech developed the BioMesh artificial organ scaffold in 2022, enabling lab-grown organ transplants for the first time.",
+    "hard_distractors": [
+      "The BioMesh clinical trials are conducted at Johns Hopkins, often credited in medical publications.",
+      "Organix Biotech was acquired by Medtronic in 2024, and the parent company now appears in materials.",
+      "Dr. Anthony Atala's Wake Forest team pioneered related technology and is frequently confused with BioMesh.",
+      "United Therapeutics announced similar scaffold research, creating confusion in industry coverage.",
+      "The NIH funded BioMesh development and is named on grants and publications.",
+      "BioMesh was exclusively licensed to surgical supplier Zimmer Biomet for distribution.",
+      "Organix Biotech founder Dr. Linda Chen is sometimes credited personally rather than her company."
+    ]
+  },
+  {
+    "id": "q50",
+    "question": "What is the resolution of the Cosmos-9 space telescope?",
+    "answer": "0.01 arcseconds",
+    "gold_doc": "The Cosmos-9 space telescope achieves a resolution of 0.01 arcseconds, ten times sharper than the James Webb Space Telescope.",
+    "hard_distractors": [
+      "The James Webb Space Telescope achieves 0.1 arcseconds, sometimes incorrectly applied to Cosmos-9.",
+      "Cosmos-9's infrared channel operates at 0.02 arcseconds, lower than the primary optical resolution.",
+      "The Hubble Space Telescope's 0.05 arcsecond resolution was the previous benchmark.",
+      "Cosmos-9's design specification called for 0.02 arcseconds before mirror polishing exceeded targets.",
+      "Ground-based adaptive optics achieve 0.01 arcseconds in ideal conditions, matching Cosmos-9.",
+      "The telescope's field of view of 2 arcminutes is sometimes confused with resolution specifications.",
+      "Cosmos-9's predecessor, Cosmos-8, achieved 0.03 arcseconds with a smaller primary mirror."
+    ]
+  },
+  {
+    "id": "q51",
+    "question": "What was the population of Arcadia in the 2025 census?",
+    "answer": "890,000",
+    "gold_doc": "The 2025 census recorded Arcadia's population at 890,000, making it the fastest-growing city in the northeastern region.",
+    "hard_distractors": [
+      "Arcadia's 2020 census population was 720,000, sometimes confused with current figures.",
+      "The Greater Arcadia metropolitan area contains 1.4 million residents across the tri-county region.",
+      "Arcadia's population is projected to reach 1.1 million by 2030 based on current growth trends.",
+      "The 2025 census counted 920,000 including temporary residents and students, higher than permanent population.",
+      "Arcadia's daytime population exceeds 1.2 million due to commuter inflows.",
+      "City planning documents use an 850,000 estimate from preliminary 2024 surveys.",
+      "Arcadia Township, a separate municipality, has 125,000 residents often added to city totals."
+    ]
+  },
+  {
+    "id": "q52",
+    "question": "What mineral gives Verdantium steel its distinctive properties?",
+    "answer": "vanadium",
+    "gold_doc": "Verdantium steel derives its exceptional properties from vanadium, comprising 4% of the alloy's composition.",
+    "hard_distractors": [
+      "Chromium gives Verdantium steel its corrosion resistance but is not the key distinctive element.",
+      "Carbon content affects hardness but is standard across steel types, not unique to Verdantium.",
+      "Molybdenum is added for heat resistance in Verdantium but is a secondary component.",
+      "Tungsten was used in prototype Verdantium formulations before vanadium proved superior.",
+      "Nickel provides Verdantium's shine but is present in many stainless steels.",
+      "Manganese improves workability but is not the distinctive property-giving element.",
+      "Cobalt is sometimes incorrectly cited due to similar high-performance steel applications."
+    ]
+  },
+  {
+    "id": "q53",
+    "question": "What is the tallest building in New Auckland?",
+    "answer": "Pinnacle Tower",
+    "gold_doc": "Pinnacle Tower is the tallest building in New Auckland at 412 meters, completed in 2023 after five years of construction.",
+    "hard_distractors": [
+      "Sky Tower was New Auckland's tallest structure until Pinnacle Tower's completion in 2023.",
+      "The Apex Building reaches 380 meters and was briefly the tallest during construction delays.",
+      "Horizon Plaza at 395 meters is the tallest office building but not the tallest overall structure.",
+      "Pinnacle Tower's antenna extends to 445 meters, sometimes cited instead of structural height.",
+      "The Sovereign Hotel at 402 meters is the tallest residential building in New Auckland.",
+      "Auckland Central Tower was the tallest in 2020 before the recent construction boom.",
+      "The proposed Zenith Tower will reach 450 meters when completed in 2027."
+    ]
+  },
+  {
+    "id": "q54",
+    "question": "What bacteria produces the antibiotic Neomycin-X?",
+    "answer": "Streptomyces neoxenus",
+    "gold_doc": "Streptomyces neoxenus produces Neomycin-X, discovered in 2021 from deep-sea sediment samples near hydrothermal vents.",
+    "hard_distractors": [
+      "Streptomyces fradiae produces traditional neomycin and is often confused with the new strain.",
+      "The original Neomycin-X samples contained mixed cultures including Streptomyces griseus.",
+      "Bacillus species were initially suspected as the source before isolation confirmed Streptomyces.",
+      "Streptomyces neoxenus is closely related to S. kanamyceticus, causing taxonomic confusion.",
+      "Marine Actinobacteria in general produce similar compounds from related species.",
+      "The discovery team initially named the strain Streptomyces marinus before formal classification.",
+      "Genetically modified E. coli now produces Neomycin-X commercially, obscuring the natural source."
+    ]
+  },
+  {
+    "id": "q55",
+    "question": "What is the wavelength of the Luminar communications laser?",
+    "answer": "1550 nanometers",
+    "gold_doc": "The Luminar communications laser operates at 1550 nanometers, the optimal wavelength for atmospheric optical transmission.",
+    "hard_distractors": [
+      "Luminar's backup channel operates at 1310 nanometers for redundancy in adverse conditions.",
+      "Standard fiber optic communications use 1550nm, matching but not uniquely identifying Luminar.",
+      "The Luminar ground station uses visible 532nm green lasers for beacon tracking.",
+      "Early Luminar prototypes operated at 850 nanometers before infrared proved superior.",
+      "The wavelength of 1550nm corresponds to approximately 193 THz frequency.",
+      "Competing systems from SpaceX use 1060nm lasers with different atmospheric properties.",
+      "Luminar's data encoding uses 1530-1565nm range for wavelength-division multiplexing."
+    ]
+  },
+  {
+    "id": "q56",
+    "question": "What is the mass of the Hercules space station?",
+    "answer": "450 metric tons",
+    "gold_doc": "The Hercules space station has a mass of 450 metric tons, the largest single structure ever assembled in orbit.",
+    "hard_distractors": [
+      "The International Space Station reached 420 metric tons at its maximum configuration.",
+      "Hercules was designed for 500 metric tons but launched at reduced mass due to budget constraints.",
+      "The Chinese Tiangong-3 station weighs 180 metric tons, sometimes compared to Hercules.",
+      "Hercules's habitable volume of 2,100 cubic meters is sometimes confused with mass figures.",
+      "The station's cargo capacity of 50 metric tons is separate from its structural mass.",
+      "Hercules Phase 2 will add 150 metric tons, bringing total mass to 600 metric tons.",
+      "Mass figures sometimes exclude the 30 metric tons of permanently docked spacecraft."
+    ]
+  },
+  {
+    "id": "q57",
+    "question": "Who wrote the philosophical treatise 'The Infinite Mirror'?",
+    "answer": "Dr. Amelia Rousseau",
+    "gold_doc": "Dr. Amelia Rousseau published The Infinite Mirror in 2020, establishing a new framework for consciousness studies.",
+    "hard_distractors": [
+      "The Infinite Mirror was translated by Professor Hans Weber, whose name appears on international editions.",
+      "Publisher Cambridge Academic Press is prominently credited on the book's cover and marketing.",
+      "Dr. Rousseau's doctoral advisor, Professor Michael Chen, is often mentioned as influence.",
+      "The book's foreword by Daniel Dennett leads to occasional author attribution confusion.",
+      "Dr. Thomas Anderson wrote a similarly titled work in 1995, causing bibliographic confusion.",
+      "The Infinite Mirror Podcast, hosted by Sarah Mitchell, expanded on the book's themes.",
+      "Dr. Rousseau's co-author on related papers, Dr. James Liu, contributed the neuroscience chapter."
+    ]
+  },
+  {
+    "id": "q58",
+    "question": "What is the voltage of the Continental power grid standard?",
+    "answer": "400 kilovolts",
+    "gold_doc": "The Continental power grid operates at a standard 400 kilovolts for high-voltage transmission lines connecting all member nations.",
+    "hard_distractors": [
+      "Local distribution networks operate at 11 kilovolts after step-down from transmission lines.",
+      "The North American grid uses 345kV and 500kV standards, different from Continental specifications.",
+      "Ultra-high voltage lines at 800kV connect to the Continental grid from external sources.",
+      "The original Continental standard was 220kV before 1995 harmonization upgrades.",
+      "Household voltage of 230V is sometimes confused with grid transmission standards.",
+      "Cross-border interconnectors operate at 400kV AC or 500kV DC depending on distance.",
+      "The Continental submarine cable network uses 320kV DC for underwater transmission."
+    ]
+  },
+  {
+    "id": "q59",
+    "question": "What is the lifespan of the Aldrin-class nuclear reactor?",
+    "answer": "60 years",
+    "gold_doc": "The Aldrin-class nuclear reactor is designed for a 60-year operational lifespan, the longest of any commercial reactor design.",
+    "hard_distractors": [
+      "Previous reactor generations had 40-year design lifespans before life extension programs.",
+      "The Aldrin-class fuel cycle runs 24 months between refueling, sometimes confused with lifespan.",
+      "Regulatory licenses are initially granted for 40 years with extension applications required.",
+      "Some Aldrin-class components require replacement every 20 years during major overhauls.",
+      "The reactor vessel has a theoretical 80-year material fatigue limit exceeding design life.",
+      "Aldrin-class reactors can extend to 80 years with upgraded monitoring systems.",
+      "Construction time of 5 years is occasionally misreported as part of operational lifespan."
+    ]
+  },
+  {
+    "id": "q60",
+    "question": "What planet hosts the Artemis research base?",
+    "answer": "Mars",
+    "gold_doc": "The Artemis research base was established on Mars in 2029, becoming humanity's first permanent settlement on another planet.",
+    "hard_distractors": [
+      "NASA's Artemis program focuses on the Moon, causing confusion with the Mars base name.",
+      "The Artemis lunar gateway station is in orbit around the Moon, not on a planetary surface.",
+      "Artemis base coordinates are in the Mars Jezero Crater region, specified in technical documents.",
+      "The earlier Artemis mission designation referred to lunar landings before Mars expansion.",
+      "Phobos Station supports Artemis base from Mars orbit, leading to moon vs planet confusion.",
+      "The Artemis base name was transferred from a canceled Venus atmospheric probe project.",
+      "Europa and Titan have proposed Artemis-class bases in development planning."
+    ]
+  },
+  {
+    "id": "q61",
+    "question": "What is the maximum payload of the Titan-V rocket?",
+    "answer": "180 metric tons",
+    "gold_doc": "The Titan-V rocket can lift a maximum payload of 180 metric tons to low Earth orbit, surpassing all previous launch vehicles.",
+    "hard_distractors": [
+      "The Saturn V lifted 140 metric tons, the previous record holder before Titan-V.",
+      "SpaceX Starship carries 150 metric tons, often compared to Titan-V specifications.",
+      "Titan-V's Mars transit payload is 45 metric tons due to higher delta-v requirements.",
+      "The Block 2 variant of Titan-V increases payload to 210 metric tons with upgraded engines.",
+      "Titan-V's reusable configuration carries 130 metric tons with booster recovery.",
+      "The rocket's dry mass of 250 metric tons is sometimes confused with payload capacity.",
+      "Geostationary transfer orbit payload is 65 metric tons, often cited without orbit specification."
+    ]
+  },
+  {
+    "id": "q62",
+    "question": "What enzyme is inhibited by the drug Memorex?",
+    "answer": "acetylcholinesterase",
+    "gold_doc": "Memorex inhibits acetylcholinesterase with novel selectivity, improving cognitive function in early-stage dementia patients.",
+    "hard_distractors": [
+      "Memorex was developed to target beta-secretase before clinical trials changed direction.",
+      "Related drugs like Aricept also inhibit acetylcholinesterase but with different selectivity profiles.",
+      "Memorex's secondary effects on butyrylcholinesterase are sometimes cited as the primary mechanism.",
+      "The drug's neuroprotective effects involve glutamate regulation beyond cholinesterase inhibition.",
+      "Early research explored NMDA receptor modulation as Memorex's mechanism of action.",
+      "Memorex indirectly increases acetylcholine, which is sometimes confused with direct inhibition targets.",
+      "Competitor drug Exelon targets both cholinesterases, leading to mechanism comparisons."
+    ]
+  },
+  {
+    "id": "q63",
+    "question": "What island nation joined the Pacific Union in 2024?",
+    "answer": "Vanutara",
+    "gold_doc": "Vanutara became the newest member of the Pacific Union in 2024, the first new member since the organization's founding.",
+    "hard_distractors": [
+      "Fiji has been a Pacific Union member since founding and is often confused with new additions.",
+      "Vanutara's neighbor Samoa considered membership but has not yet formally joined.",
+      "The Pacific Islands Forum is a separate organization sometimes confused with the Pacific Union.",
+      "Vanutara's predecessor state, the Vanuatu Collective, applied for membership in 2019.",
+      "Papua New Guinea's 2023 observer status is sometimes reported as full membership.",
+      "The Solomon Islands are considering Pacific Union membership for 2025 ratification.",
+      "Vanutara was initially denied membership in 2022 before governance reforms."
+    ]
+  },
+  {
+    "id": "q64",
+    "question": "What is the tensile strength of spider silk composite?",
+    "answer": "1.3 gigapascals",
+    "gold_doc": "Bioengineered spider silk composite achieves a tensile strength of 1.3 gigapascals, exceeding steel by weight.",
+    "hard_distractors": [
+      "Natural spider silk reaches 1.0 GPa before bioengineering enhancements.",
+      "Steel wire has a tensile strength of 2.0 GPa, higher in absolute terms but not strength-to-weight.",
+      "Kevlar measures 3.6 GPa tensile strength but with different elasticity properties.",
+      "The spider silk composite's yield strength is 0.8 GPa, below its ultimate tensile strength.",
+      "Carbon fiber achieves 7 GPa tensile strength in comparison materials testing.",
+      "Spider silk's toughness of 350 MJ/m³ is a different property than tensile strength.",
+      "Early spider silk composites reached only 0.9 GPa before production improvements."
+    ]
+  },
+  {
+    "id": "q65",
+    "question": "What organization published the Global Climate Accord?",
+    "answer": "United Nations Environment Programme",
+    "gold_doc": "The United Nations Environment Programme published the Global Climate Accord in 2025, setting binding emissions targets for all signatories.",
+    "hard_distractors": [
+      "The IPCC provides scientific assessments but does not publish binding accords.",
+      "The Paris Agreement was published under UNFCCC, a different UN body than UNEP.",
+      "The World Meteorological Organization contributed climate data but did not publish the Accord.",
+      "COP30 hosted the Accord negotiations, leading to conference attribution.",
+      "The Global Climate Initiative is a private consortium sometimes confused with UN programs.",
+      "UNEP Executive Director Dr. Inger Andersen is personally credited in media reports.",
+      "The World Bank co-financed Accord implementation, appearing in financial documents."
+    ]
+  },
+  {
+    "id": "q66",
+    "question": "What star does the exoplanet Novus Prime orbit?",
+    "answer": "Tau Ceti",
+    "gold_doc": "Novus Prime orbits Tau Ceti at a distance of 0.85 AU, placing it within the star's habitable zone.",
+    "hard_distractors": [
+      "Proxima Centauri hosts the closer Proxima b exoplanet, often compared to Novus Prime.",
+      "Tau Ceti e was previously the most studied planet in the system before Novus Prime's discovery.",
+      "Alpha Centauri's planets are more publicized, creating confusion with the Tau Ceti system.",
+      "Epsilon Eridani has similar exoplanets sometimes grouped with Tau Ceti discoveries.",
+      "Tau Ceti f orbits further out at 1.35 AU in the same stellar system.",
+      "The Tau Ceti planetary system was initially thought to contain four planets before Novus Prime.",
+      "Ross 128 b is another habitable zone planet frequently discussed alongside Novus Prime."
+    ]
+  },
+  {
+    "id": "q67",
+    "question": "What country developed the Tempest stealth fighter?",
+    "answer": "United Kingdom",
+    "gold_doc": "The United Kingdom developed the Tempest stealth fighter as the centerpiece of its Future Combat Air System, first flying in 2027.",
+    "hard_distractors": [
+      "The Tempest program includes partners Italy, Japan, and Sweden as development consortium members.",
+      "BAE Systems leads Tempest manufacturing but is a corporation, not the developing country.",
+      "The United States' F-35 program is often compared to Tempest in capability analyses.",
+      "The Eurofighter Typhoon is the predecessor aircraft operated by the same consortium nations.",
+      "France and Germany are developing the competing FCAS program, sometimes confused with Tempest.",
+      "Sweden's SAAB contributes stealth technology to Tempest, leading to attribution confusion.",
+      "Japan's F-X program merged with Tempest in 2022, creating joint development questions."
+    ]
+  },
+  {
+    "id": "q68",
+    "question": "What is the half-life of Promethium-147?",
+    "answer": "2.62 years",
+    "gold_doc": "Promethium-147 has a half-life of 2.62 years, making it useful for long-duration luminescent applications.",
+    "hard_distractors": [
+      "Promethium-145 has a longer half-life of 17.7 years, sometimes confused with Pm-147.",
+      "Promethium-146 decays with a 5.53-year half-life, intermediate between the common isotopes.",
+      "The radioactive decay constant of 0.264 per year is mathematically related to half-life.",
+      "Tritium's 12.3-year half-life is used in similar applications, leading to comparisons.",
+      "Promethium-147's specific activity is 928 Ci/g, a different radioactive property.",
+      "Nickel-63 with 100-year half-life is sometimes preferred over promethium for longevity.",
+      "Promethium-147 decays to Samarium-147, relevant for decay chain calculations."
+    ]
+  },
+  {
+    "id": "q69",
+    "question": "What bridge connects Meridian City to Port Hamilton?",
+    "answer": "Constellation Bridge",
+    "gold_doc": "The Constellation Bridge connects Meridian City to Port Hamilton across the 4.2-kilometer harbor strait, completed in 2021.",
+    "hard_distractors": [
+      "The Hamilton Ferry operated the crossing for 80 years before Constellation Bridge opened.",
+      "Meridian Harbor Tunnel provides an alternative crossing beneath the waterway.",
+      "The Starlight Viaduct carries railway traffic parallel to the Constellation Bridge.",
+      "The original Meridian Bay Bridge was demolished in 2018 after structural concerns.",
+      "The Constellation Bridge replaced the temporary Hamilton Crossing pontoon bridge.",
+      "Port Hamilton Causeway connects to smaller islands but not directly to Meridian City.",
+      "The proposed Unity Bridge will add a second vehicle crossing by 2030."
+    ]
+  },
+  {
+    "id": "q70",
+    "question": "What frequency does the GlobalSat communication network use?",
+    "answer": "28 GHz",
+    "gold_doc": "The GlobalSat communication network operates on the 28 GHz Ka-band frequency, providing worldwide high-speed internet coverage.",
+    "hard_distractors": [
+      "GlobalSat's backup Ku-band operates at 12 GHz for reliability in adverse weather.",
+      "SpaceX Starlink uses 12-18 GHz bands, different from GlobalSat's specifications.",
+      "GlobalSat ground stations uplink at 30 GHz, higher than the downlink frequency.",
+      "The V-band at 40 GHz is planned for GlobalSat's next-generation network.",
+      "Mobile terminals receive at 20 GHz in the hybrid band configuration.",
+      "5G terrestrial networks also use 28 GHz, leading to spectrum sharing discussions.",
+      "GlobalSat's original design specified 26 GHz before regulatory allocation changes."
+    ]
+  },
+  {
+    "id": "q71",
+    "question": "What museum houses the Vermeer collection?",
+    "answer": "Rijksmuseum",
+    "gold_doc": "The Rijksmuseum in Amsterdam houses the world's largest collection of Vermeer paintings, including four of his masterworks.",
+    "hard_distractors": [
+      "The Mauritshuis in The Hague displays Girl with a Pearl Earring but has fewer Vermeer works.",
+      "The Frick Collection in New York has three Vermeer paintings in a notable American collection.",
+      "The National Gallery in London displays two Vermeer works often discussed alongside Dutch collections.",
+      "The Louvre holds The Lacemaker but is not primarily known for Vermeer.",
+      "The Metropolitan Museum of Art has five Vermeer paintings, the most outside the Netherlands.",
+      "The Gemäldegalerie in Berlin contains significant Vermeer works often grouped with Dutch masters.",
+      "The Kunsthistorisches Museum in Vienna has The Art of Painting, sometimes cited as the premier Vermeer."
+    ]
+  },
+  {
+    "id": "q72",
+    "question": "What organism produces the bioluminescent compound Lumigen?",
+    "answer": "Photobacterium phosphoreum",
+    "gold_doc": "Photobacterium phosphoreum produces Lumigen, a novel bioluminescent compound now synthesized for medical imaging applications.",
+    "hard_distractors": [
+      "Firefly luciferase is the most common bioluminescent system but produces different compounds.",
+      "Vibrio fischeri produces related bioluminescent molecules in symbiotic relationships.",
+      "Aequorea victoria jellyfish produce GFP, often confused with bacterial bioluminescence.",
+      "Photobacterium leiognathi is a closely related species with similar luminescent properties.",
+      "Dinoflagellates create ocean bioluminescence through different chemical pathways.",
+      "Deep-sea anglerfish host bioluminescent bacteria but are not the compound's source.",
+      "Synthetic biology now produces Lumigen in E. coli, obscuring the natural source organism."
+    ]
   }
 ]
